@@ -1,0 +1,23 @@
+:root {
+  // size
+  --dash-bigger  : 25px;
+  --dash-big     : 18px;
+  --dash-normal  : 15px;
+  --dash-small   : 13px;
+  --dash-smaller : 12px;
+
+  // font-weight
+  --font-regular   : 400;
+  --font-semi-bold : 600;
+  --font-bold      : 700;
+  --font-main      : 'Open Sans', sans-serif;
+
+  @include to(m) {
+    --dash-bigger  : 18px;
+    --dash-big     : 15px;
+    --dash-normal  : 13px;
+    --dash-small   : 12px;
+    --dash-smaller : 11px;
+  }
+
+}

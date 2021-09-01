@@ -1,0 +1,14 @@
+body, html, app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: var(--dash-normal);
+  font-family: var(--font-main) !important;
+  background: var(--gris);
+}
+
+.main_container {
+  width: 100%;
+  padding-top: 70px;
+  overflow: hidden;
+}

@@ -1,0 +1,29 @@
+//Frameword and library
+$cssCore    : false;
+$cssHelpers : true;
+$dev        : false;
+$dev-hover  : false;
+@import '~ed-grid/ed-grid';
+
+// Config
+@import 'config/functions';
+@import 'config/variables';
+@import 'config/mixins';
+
+//BASE
+@import 'base/base';
+
+//Components
+@import 'components/componets';
+
+//Style theme
+// @import 'layouts/projects';
+
+//Styles Helpers
+@import 'helpers/globals';
+
+//variables css colors and fonts theming
+@import 'theme/colors';
+@import 'theme/fonts';
+//Hacks
+@import 'hacks/hacks';
