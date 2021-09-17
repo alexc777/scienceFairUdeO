@@ -1,0 +1,78 @@
+.bg_banner_list {
+  background: var(--light-bg);
+
+  h1 {
+    font-size: var(--dash-bigger);
+  }
+}
+
+.project-filters {
+  position: sticky;
+  top: 70px;
+  z-index: 100;
+  background: var(--gris);
+  box-shadow: 0px 2px 10px rgb(174 190 205 / 30%);
+
+  @include to(m) {
+    top: 61px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .title_filter {
+    color: var(--negro);
+    font-size: var(--dash-normal);
+    font-weight: var(--font-semi-bold);
+  }
+
+  .list_categories {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+
+    @include to(m) {
+      height: 35px;
+      margin-top: 10px;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      overflow-y: hidden;
+      align-items: center;
+    }
+
+    .list_item {
+      cursor: pointer;
+      color: var(--negro);
+      transition: all .2s ease;
+      font-size: var(--dash-normal);
+      font-weight: var(--font-regular);
+
+      @include to(m) {
+        white-space: nowrap;
+      }
+
+      &:hover {
+        color: var(--marron);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.item_card_project {
+  img {
+    cursor: pointer;
+  }
+  .button {
+    color: var(--marron);
+    background: transparent;
+    transition: all .2s ease;
+    border: 1px solid var(--marron);
+
+    &:hover {
+      color: var(--blanco);
+      background: var(--marron);
+    }
+  }
+}

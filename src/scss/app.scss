@@ -17,7 +17,8 @@ $dev-hover  : false;
 @import 'components/componets';
 
 //Style theme
-// @import 'layouts/projects';
+@import 'layouts/list-projects';
+@import 'layouts/team';
 
 //Styles Helpers
 @import 'helpers/globals';

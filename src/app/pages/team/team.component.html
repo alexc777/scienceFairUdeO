@@ -1,0 +1,30 @@
+<section class="l-section s-py-4 bg_banner_list">
+  <div class="ed-grid lg-grid-2 row-gap s-gap-2 m-gap-4 m-cross-center">
+    <div class="s-column s-main-center lg-main-start lg-cross-start s-center lg-left">
+      <h1>Nuestro Equipo</h1>
+      <p>Conoce a las personas que aportaron de su conocimiento a lo largo del desarrollo de este proyecto.</p>
+    </div>
+
+    <div>
+      <div class="img-container s-ratio-16-9">
+        <img class="s-radius-1" src="assets/img/banner-team.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ed-grid s-grid-2 m-grid-4 lg-grid-5 row-gap-2 s-cols-6 lg-cols-10 s-x-3 lg-x-1">
+  <article class="s-mb-0 s-pxy-2" *ngFor="let item of [0,1,2,3,4,5,6,7,8,9,10,11,12,13]">
+    <div class="img-container circle s-mb-2 s-px-2">
+      <div>
+        <img src="assets/img/profile-placeholder.jpg" alt="imagen de un integrante">
+      </div>
+    </div>
+
+    <div class="info_member">
+      <p class="name_member">Nombre Apellido</p>
+      <span class="button role_member">Frontend Developer</span>
+      <p class="frase_member">Frase o descripción corta</p>
+    </div>
+  </article>
+</div>
