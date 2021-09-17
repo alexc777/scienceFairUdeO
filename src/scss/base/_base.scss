@@ -10,5 +10,8 @@ body, html, app-root {
 .main_container {
   width: 100%;
   padding-top: 70px;
-  overflow: hidden;
+
+  @include to(m) {
+    padding: 61px 0;
+  }
 }

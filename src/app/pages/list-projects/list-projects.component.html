@@ -1,0 +1,46 @@
+<section class="l-section s-py-4 bg_banner_list">
+  <div class="ed-grid lg-grid-2 row-gap s-gap-2 m-gap-4 m-cross-center">
+    <div class="s-column s-main-center lg-main-start lg-cross-start s-center lg-left">
+      <h1>Listado de proyectos <br> Feria Científica UdeO</h1>
+      <p>Mira el listado general de los proyecto que nuestros estudiantes han creado y dejate sorprender por sus cualidades.</p>
+    </div>
+
+    <div>
+      <div class="img-container s-ratio-16-9">
+        <img class="s-radius-1" src="assets/img/banner-projects.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="project-filters l-block flex s-main-justify s-cross-center s-py-1 m-py-3">
+  <div class="ed-container s-main-justify s-cross-center">
+    <div class="title_filter">Categorías</div>
+
+    <ul class="list_categories">
+      <li class="list_item">Todas</li>
+      <li class="list_item">Robótica</li>
+      <li class="list_item">Electrónica</li>
+      <li class="list_item">Programación</li>
+      <li class="list_item">Física y Matemática</li>
+      <li class="list_item">Redes</li>
+    </ul>
+  </div>
+</nav>
+
+<div class="ed-grid s-grid-1 m-grid-4">
+  <article class="s-shadow-bottom item_card_project" *ngFor="let item of [0,1,2,3,4,5,6,7,8,9,10,11,12,13]">
+    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr" [routerLink]="['/proyectos','slug']">
+      <img src="assets/img/banner-projects.jpg">
+    </div>
+
+    <div class="s-bg-white s-pxy-2">
+      <h3>Proyecto Demo</h3>
+      <p class="s-mb-0">Información demo para una breve descripción</p>
+    </div>
+
+    <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">
+      <a [routerLink]="['/proyectos','slug']" class="button">Más Info.</a>
+    </footer>
+  </article>
+</div>
