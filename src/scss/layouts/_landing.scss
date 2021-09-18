@@ -66,4 +66,49 @@
       }
     }
   }
+
+  .main_container__projects {
+    padding-left: 380px;
+
+    @include to(m) {
+      padding-left: 0;
+      padding-top: 175px;
+    }
+
+    .spacer_items__landing {
+      padding: 85px 75px;
+
+      @include to(m) {
+        padding: 10px 0;
+      }
+    }
+
+    .item_lading_proyect {
+      border: 1px solid var(--gris);
+
+      iframe {
+        border: none;
+      }
+
+      .item_description__landing {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 35px;
+
+        h1 {
+          margin: 0;
+          color: var(--negro);
+          font-size: var(--dash-big);
+          font-weight: var(--font-semi-bold);
+        }
+
+        small {
+          color: #6d6d6d;
+          font-size: var(--dash-small);
+          margin-top: 5px;
+        }
+      }
+    }
+  }
 }
