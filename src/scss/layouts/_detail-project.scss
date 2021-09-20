@@ -1,0 +1,46 @@
+.bg_banner_list {
+  p {
+    margin-bottom: 10px;
+  }
+
+  .time_event {
+    padding-left: 35px;
+    background: url('../img/horario.svg') no-repeat 5px center;
+    background-size: contain;
+  }
+
+  .category_event {
+    padding-left: 35px;
+    background: url('../img/tag.svg') no-repeat 5px center;
+    background-size: contain;
+  }
+
+  .live_event {
+    padding-top: 5px;
+    padding-left: 35px;
+    background: url('../img/live.svg') no-repeat 5px center;
+    background-size: contain;
+  }
+}
+
+.container_voutes {
+  float: left;
+  width: 100%;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.item_voute {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: 50px;
+    margin-bottom: 8px;
+  }
+}
