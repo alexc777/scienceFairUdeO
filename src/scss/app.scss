@@ -4,6 +4,7 @@ $cssHelpers : true;
 $dev        : false;
 $dev-hover  : false;
 @import '~ed-grid/ed-grid';
+@import '~ngx-sharebuttons/themes/outline';
 
 // Config
 @import 'config/functions';

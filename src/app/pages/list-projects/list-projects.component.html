@@ -29,9 +29,9 @@
       <img [src]="project.imagen">
     </div>
 
-    <div class="s-bg-white s-pxy-2">
+    <div class="s-pxy-2">
       <h3> {{ project.name }} </h3>
-      <p class="s-mb-0"> {{ project.description }} </p>
+      <p class="s-mb-0"> {{ (project.description.length > 90) ? (project.description | slice:0:90) + '...' : (project.description) }} </p>
     </div>
 
     <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">

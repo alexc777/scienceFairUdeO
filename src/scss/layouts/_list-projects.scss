@@ -61,6 +61,12 @@
 }
 
 .item_card_project {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--blanco);
+
   img {
     cursor: pointer;
   }
