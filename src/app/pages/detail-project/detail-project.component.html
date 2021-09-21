@@ -36,3 +36,62 @@
     </div>
   </div>
 </section>
+
+<div class="ed-container">
+  <div class="ed-item spi spd">
+    <div class="projecto_description">
+      <h1>Acerca de este proyecto</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eos? Repellendus voluptas consectetur blanditiis, vitae sit, cum magnam possimus quam animi quia asperiores dolor! Dolorum est excepturi rerum ut ad.
+        Ducimus corporis, nostrum praesentium neque at odit earum sed velit maxime voluptates sit iste. Voluptatum provident veritatis ab, labore fuga nisi, dolore dignissimos voluptas aspernatur distinctio, illum itaque adipisci inventore!
+        Libero qui quia, aperiam ipsam assumenda ut possimus rerum nesciunt adipisci in eveniet reiciendis repudiandae eaque, vero pariatur omnis perferendis optio suscipit. Asperiores dolor impedit nulla quam mollitia tempore temporibus.
+        Assumenda accusamus quis deserunt quasi quisquam, hic reprehenderit aspernatur aliquam explicabo nesciunt nisi sunt, quia temporibus cupiditate at vel aut! Natus laboriosam aliquam temporibus tenetur ab sit ullam reiciendis error!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="ed-container">
+  <div class="ed-item spi spd">
+    <div class="projecto_description">
+      <h1>Integrantes</h1>
+
+      <div class="ed-grid s-grid-2 m-grid-4 lg-grid-5 row-gap-2 s-cols-6 lg-cols-10 s-x-3 lg-x-1">
+        <article class="s-mb-0 s-pxy-2" *ngFor="let integrante of arrTeam">
+          <div class="img-container circle s-mb-2 s-px-2">
+            <div>
+              <img [src]="integrante.image" [alt]="integrante.name">
+            </div>
+          </div>
+
+          <div class="info_member">
+            <p class="name_member">{{integrante.name}}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ed-container">
+  <div class="ed-item spi spd">
+    <div class="projecto_description">
+      <h1>Docentes</h1>
+
+      <div class="ed-grid s-grid-2 m-grid-4 lg-grid-5 row-gap-2 s-cols-6 lg-cols-10 s-x-3 lg-x-1">
+        <article class="s-mb-0 s-pxy-2" *ngFor="let integrante of arrTeam">
+          <div class="img-container circle s-mb-2 s-px-2">
+            <div>
+              <img [src]="integrante.image" [alt]="integrante.name">
+            </div>
+          </div>
+
+          <div class="info_member">
+            <p class="name_member">{{integrante.name}}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
