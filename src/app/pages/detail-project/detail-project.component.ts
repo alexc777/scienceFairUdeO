@@ -6,7 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./detail-project.component.scss']
 })
 export class DetailProjectComponent implements OnInit {
-
+   
+  arrTeam: any[] = [
+    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
+    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
+    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
+    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
+    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
+  ]
   constructor() { }
 
   ngOnInit(): void {
