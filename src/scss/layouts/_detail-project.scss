@@ -44,3 +44,24 @@
     margin-bottom: 8px;
   }
 }
+
+.projecto_description {
+  padding: 1.5rem;
+  position: relative;
+  border-radius: .5rem;
+  margin-bottom: 35px;
+  border: 1px solid #eff3f5;
+  background: var(--blanco);
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    border-radius: 32px 0 0 32px;
+    left: 0;
+    background: var(--marron-alt);
+  }
+}
