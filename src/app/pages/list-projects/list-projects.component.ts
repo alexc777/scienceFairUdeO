@@ -26,9 +26,9 @@ export class ListProjectsComponent implements OnInit {
     {
       imagen: 'assets/img/banner-projects.jpg',
       category: 'elec_progra',
-      name: 'Monitoreo de temperatura',
-      slug: 'monitoreo-de-temperatura',
-      description: 'Sistema para monitorear la temperatura de una persona y verificar posisbles sintomas de COVID'
+      name: 'COVID Monitoreo de Temperatura',
+      slug: 'covid-monitoreo-temperatura',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
     },
     {
       imagen: 'assets/img/banner-projects.jpg',
@@ -145,13 +145,6 @@ export class ListProjectsComponent implements OnInit {
     {
       imagen: 'assets/img/banner-projects.jpg',
       category: 'elec_progra',
-      name: 'COVID Monitoreo de Temperatura',
-      slug: 'covid-monitoreo-temperatura',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
-    },
-    {
-      imagen: 'assets/img/banner-projects.jpg',
-      category: 'elec_progra',
       name: 'Ally Cane/Baston Aliado',
       slug: 'baston-aliado',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
@@ -168,6 +161,13 @@ export class ListProjectsComponent implements OnInit {
       category: 'electronica',
       name: 'Propeller',
       slug: 'propeller',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
+    },
+    {
+      imagen: 'assets/img/banner-projects.jpg',
+      category: 'electronica',
+      name: 'Faja Transportadora',
+      slug: 'faja-transportadora',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
     },
     {

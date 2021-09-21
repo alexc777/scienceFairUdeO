@@ -27,8 +27,8 @@ export class LandingComponent implements OnInit {
     {
       video: 'xsN5v-AzLQE',
       slug: 'elec_progra',
-      name: 'Monitoreo de temperatura',
-      link: 'proyectos/monitoreo-de-temperatura',
+      name: 'COVID Monitoreo de Temperatura',
+      link: 'proyectos/covid-monitoreo-temperatura',
       category: 'Electrónica e Informatica'
     },
     {
@@ -146,13 +146,6 @@ export class LandingComponent implements OnInit {
     {
       video: 'Wop0_G4L_uQ',
       slug: 'elec_progra',
-      name: 'COVID Monitoreo de Temperatura',
-      link: 'proyectos/covid-monitoreo-temperatura',
-      category: 'Electrónica e Informatica'
-    },
-    {
-      video: 'Wop0_G4L_uQ',
-      slug: 'elec_progra',
       name: 'Ally Cane/Baston Aliado',
       link: 'proyectos/baston-aliado',
       category: 'Electrónica e Informatica'
@@ -169,6 +162,13 @@ export class LandingComponent implements OnInit {
       slug: 'electronica',
       name: 'Propeller',
       link: 'proyectos/propeller',
+      category: 'Electrónica'
+    },
+    {
+      video: 'Wop0_G4L_uQ',
+      slug: 'electronica',
+      name: 'Faja Transportadora',
+      link: 'proyectos/faja-transportadora',
       category: 'Electrónica'
     },
     {

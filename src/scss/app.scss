@@ -4,6 +4,7 @@ $cssHelpers : true;
 $dev        : false;
 $dev-hover  : false;
 @import '~ed-grid/ed-grid';
+@import '~ngx-sharebuttons/themes/outline';
 
 // Config
 @import 'config/functions';
@@ -17,9 +18,10 @@ $dev-hover  : false;
 @import 'components/componets';
 
 //Style theme
-@import 'layouts/list-projects';
 @import 'layouts/team';
 @import 'layouts/landing';
+@import 'layouts/list-projects';
+@import 'layouts/detail-project';
 
 //Styles Helpers
 @import 'helpers/globals';
