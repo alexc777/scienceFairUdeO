@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
 import { ReportProjectsRoutingModule } from './report-projects-routing.module';
 import { ReportProjectsComponent } from './report-projects.component';
 
@@ -11,7 +13,8 @@ import { ReportProjectsComponent } from './report-projects.component';
   ],
   imports: [
     CommonModule,
-    ReportProjectsRoutingModule
+    ReportProjectsRoutingModule,
+    NgxChartsModule
   ]
 })
 export class ReportProjectsModule { }
