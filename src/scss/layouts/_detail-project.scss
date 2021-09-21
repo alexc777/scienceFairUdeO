@@ -1,18 +1,32 @@
 .bg_banner_list {
   p {
     margin-bottom: 10px;
+
+    @include to(m) {
+      &.phone_left {
+        text-align: left;
+      }
+    }
   }
 
   .time_event {
     padding-left: 35px;
     background: url('../img/horario.svg') no-repeat 5px center;
     background-size: contain;
+
+    @include to(m) {
+      text-align: left;
+    }
   }
 
   .category_event {
     padding-left: 35px;
     background: url('../img/tag.svg') no-repeat 5px center;
     background-size: contain;
+
+    @include to(m) {
+      text-align: left;
+    }
   }
 
   .live_event {
@@ -20,6 +34,16 @@
     padding-left: 35px;
     background: url('../img/live.svg') no-repeat 5px center;
     background-size: contain;
+
+    @include to(m) {
+      text-align: left;
+    }
+  }
+
+  .top_votacion {
+    @include to(m) {
+      margin-top: 10px;
+    }
   }
 }
 
@@ -30,6 +54,10 @@
   gap: 35px;
   align-items: center;
   justify-content: flex-start;
+
+  @include to(m) {
+    justify-content: center;
+  }
 }
 
 .item_voute {
@@ -63,5 +91,11 @@
     border-radius: 32px 0 0 32px;
     left: 0;
     background: var(--marron-alt);
+  }
+}
+
+.spacer_info_phone {
+  @include to(m) {
+    padding: 0 10px;
   }
 }
