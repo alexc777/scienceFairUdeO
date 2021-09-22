@@ -11,21 +11,16 @@ import { DetailProyectService } from '../../services/projects/detail-proyect.ser
 export class DetailProjectComponent implements OnInit {
 
   routeParams:any;
+  objProject:any = {};
   activeModal = false;
 
   isExist = false;
 
-  arrTeam: any[] = [
-    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
-    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
-    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
-    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
-    { image: 'assets/img/profile-placeholder.jpg', name: 'Nombre Apellido'},
-  ]
   constructor(private authServices: AuthService, private router: ActivatedRoute, private detailServices: DetailProyectService) { }
 
   ngOnInit(): void {
     this.getParams();
+    this.getProjects();
   }
 
   sendVoute(): any {
@@ -58,6 +53,14 @@ export class DetailProjectComponent implements OnInit {
       this.routeParams = params;
       console.log(this.routeParams);
     });
+  }
+
+  getProjects() {
+    this.detailServices.getProjects(this.routeParams.slug).subscribe((data:any) => {
+      this.objProject = data;
+    },(error: any) => {
+      console.log('Error: ', error);
+    })
   }
 
 }
