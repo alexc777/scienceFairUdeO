@@ -4,7 +4,7 @@
       <img src="assets/img/logo-udeo.png" alt="Logo UdeO">
 
       <ul class="list_categories_menu">
-        <li class="item_menu__list" *ngFor="let category of arrCategory"> {{ category.name }} </li>
+        <li class="item_menu__list" *ngFor="let category of arrCategory" (click)="filterProjects(category.slug)"> {{ category.name }} </li>
       </ul>
 
       <div class="shared_footer"></div>
@@ -15,7 +15,7 @@
   <div class="main_container__projects">
     <div class="spacer_items__landing">
       <div class="ed-grid s-grid-1 m-grid-2">
-        <article class="item_lading_proyect" *ngFor="let project of arrProjects">
+        <article class="item_lading_proyect animate__animated animate__fadeIn" *ngFor="let project of arrProjects">
           <div class="ed-video">
             <iframe [src]="project.video"></iframe>
           </div>
