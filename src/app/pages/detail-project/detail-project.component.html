@@ -14,15 +14,17 @@
 
       <h2 class="top_votacion">¿Que te parecio el proyecto?</h2>
       <div class="container_voutes">
-        <div class="item_voute">
+        <div class="item_voute" (click)="sendVoute()">
           <img src="assets/img/meencanta.png" alt="Mejor Proyecto">
           ¡Me encanta!
         </div>
-        <div class="item_voute">
+
+        <div class="item_voute" (click)="sendVoute()">
           <img src="assets/img/estabien.png" alt="Buen proyecto">
           Está bien
         </div>
-        <div class="item_voute">
+
+        <div class="item_voute" (click)="sendVoute()">
           <img src="assets/img/mejorar.png" alt="prodria mejorar">
           Podría mejorar
         </div>
@@ -95,3 +97,24 @@
     </div>
   </div>
 </div>
+
+<!-- Modal Login -->
+<div class="overlay" id="overlay" [class.active]="activeModal">
+  <div class="popup" id="popup" [class.active]="activeModal">
+    <div class="btn-cerrar-popup" (click)="toggleModal()"></div>
+
+    <div class="body_popup">
+      <h3>¿Estas intentando votar?</h3>
+      <h4>Para poder dar tu voto desbe de registrarte en el sistema.</h4>
+
+      <div class="container_btn__login">
+        <p>Registrarme con:</p>
+        <button type="button" class="button btn_login" (click)="loginGoogle()">
+          <img src="assets/img/google.svg" alt="logo de google">
+          Google
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
