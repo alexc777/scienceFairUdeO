@@ -60,7 +60,7 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'K4SH1GzbhNw',
         slug: 'naturales',
         name: 'Eliminacion de Bacterias en agua para consumo humano',
         link: 'proyectos/eliminacion-de-backterias-en-agua',
@@ -207,7 +207,7 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'FMWW8UOmi1U',
         slug: 'elec_progra',
         name: 'SISCOM (Sistema de Comandas)',
         link: 'proyectos/siscom',
