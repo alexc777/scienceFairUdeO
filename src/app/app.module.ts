@@ -8,20 +8,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { PagesComponent } from './pages/pages.component';
+import { AngularFireModule } from '@angular/fire/compat';
+import { firebaseConfig } from '../environments/environment';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    PagesComponent
-  ],
+  declarations: [AppComponent, PagesComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     ComponentsModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(firebaseConfig),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
