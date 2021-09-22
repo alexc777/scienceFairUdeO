@@ -10,7 +10,7 @@ export class TeamComponent {
     { image: 'assets/img/osman-front.jpg', name: 'Osman Cruz', work: 'Frontend Lead', frase: 'Primero hazlo, luego hazlo bien, luego hazlo mejor.'},
     { image: 'assets/img/LuisRecurso-2.png', name: 'Luis Rodas', work: 'Backend Lead', frase: ' Casarse con un software es un pecado capital en este mundo de constante evolución.'},
     { image: 'assets/img/OlgaRecurso.png', name: 'Olga Hinestroza', work: 'Product Owner', frase: 'El éxito depende más de tu constancia, que de tu talento.'},
-    { image: 'assets/img/CeciliaRecurso-7.png', name: 'Cecilia Valencia', work: 'Frontend Developer', frase: 'No intentes ser útil. Intenta ser tú: eso basta, y en eso reside tu razón de ser.'},
+    { image: 'assets/img/ceci-perfil.jpeg', name: 'Cecilia Valencia', work: 'Frontend Developer', frase: 'No intentes ser útil. Intenta ser tú: eso basta, y en eso reside tu razón de ser.'},
     { image: 'assets/img/Sergio.jpg', name: 'Sergio Avendaño', work: 'Backend Developer', frase: 'Eres tan grande como tu mente te permita serlo y tú controlas tu mente.' },
     { image: 'assets/img/MynorRecurso-5.png', name: 'Mynor Vásquez', work: 'Frontend Developer', frase: 'Un buen desarrollador de software trabaja con disciplina y constancia desde el primer día.'},
     { image: 'assets/img/LucasRecurso.png', name: 'Edgar Lucas', work: 'Scrum Master', frase: 'No temas vivir la vida con lentitud creciendo a tu ritmo, lo único a lo que debes temerle es a detenerte en medio del camino.' },

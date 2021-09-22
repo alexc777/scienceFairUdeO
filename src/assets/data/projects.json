@@ -12,7 +12,7 @@
         { "imagen": "assets/img/osman-front.jpg", "name": "Osman Cruz"},
         { "imagen": "assets/img/LuisRecurso-2.png", "name": "Luis Rodas"},
         { "imagen": "assets/img/OlgaRecurso.png", "name": "Olga Hinestroza"},
-        { "imagen": "assets/img/CeciliaRecurso-7.png", "name": "Cecilia Valencia"},
+        { "imagen": "assets/img/ceci-perfil.jpeg", "name": "Cecilia Valencia"},
         { "imagen": "assets/img/Sergio.jpg", "name": "Sergio Avendaño"},
         { "imagen": "assets/img/MynorRecurso-5.png", "name": "Mynor Vásquez"},
         { "imagen": "assets/img/LucasRecurso.png", "name": "Edgar Lucas"},
@@ -462,31 +462,55 @@
       ]
     },
     {
-      "imagen": "assets/img/banner-projects.jpg",
+      "imagen": "assets/img/llenado-pinturas/proyecto-pintura.jpeg",
       "category": "Electrónica e Informatica",
       "name": "Llenado en la selección automática de envases en Fábrica de Pinturas",
       "horario": "11:00 - 11:45 AM",
       "live": "https://streamyard.com/",
       "slug": "llenado-envases-pintura",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "description": "Es un prototipo para un sistema autónomo que se basa en el llenado de envases de pinturas el cual es monitoreado contantemente por medio de sensores digitales el cual es procesado y enviado vía Radio Frecuencias a un panel central el cual es gestionado y enviado a una BD (Base De Datos) y así poder monitorear contantemente los productos terminados, dependiendo del código de barras detectado así será su color dispensado, cabe resaltar que es un circuito con detección de errores lo que quiere decir que si hay algún problema en el sistema el dispositivo nos lo indicara atreves de sus distintas señalizaciones.",
       "integrantes": [
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Integrante"
+          "imagen": "assets/img/llenado-pinturas/donald.jpg",
+          "name": "Donald Jerónimo"
         },
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Integrante"
+          "imagen": "assets/img/llenado-pinturas/walter.jpg",
+          "name": "Walter Chingo"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/jheremy.jpg",
+          "name": "Jheremy Martinez"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/eva.jpg",
+          "name": "Eva Marroquin"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/fernando.jpg",
+          "name": "Fernando Ramirez"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/lester.jpg",
+          "name": "Lester Alfaro"
         }
       ],
       "docentes": [
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Docente"
+          "imagen": "assets/img/docentes/jorge-lopez.jpg",
+          "name": "Ing. Jorge López"
         },
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Docente"
+          "imagen": "assets/img/docentes/walter-oliva.jpg",
+          "name": "Ing. Walter Oliva"
+        },
+        {
+          "imagen": "assets/img/docentes/ruben-rodas.jpg",
+          "name": "Ing. Ruben Rodas"
+        },
+        {
+          "imagen": "assets/img/docentes/billy-asturias.jpg",
+          "name": "Ing. Billy Asturias"
         }
       ]
     },
