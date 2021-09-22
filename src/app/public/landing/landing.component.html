@@ -4,12 +4,7 @@
       <img src="assets/img/logo-udeo.png" alt="Logo UdeO">
 
       <ul class="list_categories_menu">
-        <li class="item_menu__list">Todas</li>
-        <li class="item_menu__list">Robótica</li>
-        <li class="item_menu__list">Electrónica</li>
-        <li class="item_menu__list">Programación</li>
-        <li class="item_menu__list">Física y Matemática</li>
-        <li class="item_menu__list">Redes</li>
+        <li class="item_menu__list" *ngFor="let category of arrCategory"> {{ category.name }} </li>
       </ul>
 
       <div class="shared_footer"></div>
@@ -20,13 +15,14 @@
   <div class="main_container__projects">
     <div class="spacer_items__landing">
       <div class="ed-grid s-grid-1 m-grid-2">
-        <article class="item_lading_proyect" *ngFor="let item of [0,1,2,3,4,5]">
+        <article class="item_lading_proyect" *ngFor="let project of arrProjects">
           <div class="ed-video">
-            <iframe src="https://www.youtube.com/embed/Wop0_G4L_uQ"></iframe>
+            <iframe [src]="project.video"></iframe>
           </div>
+
           <div class="item_description__landing">
-            <h1>Proyecto Demo</h1>
-            <small>Róbotica</small>
+            <a [href]="project.link" target="_blank"><h1> {{ project.name }} </h1></a>
+            <small> {{ project.category }} </small>
           </div>
         </article>
       </div>

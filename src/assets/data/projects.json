@@ -1,0 +1,779 @@
+{
+  "projects": [
+    {
+      "imagen": "assets/img/votaciones-udeo.jpg",
+      "category": "Electrónica e Informatica",
+      "name": "Sistema de exposición y Votaciones",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "sistema-de-exposicion-y-votaciones",
+      "description": "Sistema desarrollado con tecnologías web y .Net que permite la exposición de proyectos y asignar una calificación",
+      "integrantes": [
+        { "imagen": "assets/img/osman-front.jpg", "name": "Osman Cruz"},
+        { "imagen": "assets/img/LuisRecurso-2.png", "name": "Luis Rodas"},
+        { "imagen": "assets/img/OlgaRecurso.png", "name": "Olga Hinestroza"},
+        { "imagen": "assets/img/ceci-perfil.jpeg", "name": "Cecilia Valencia"},
+        { "imagen": "assets/img/Sergio.jpg", "name": "Sergio Avendaño"},
+        { "imagen": "assets/img/MynorRecurso-5.png", "name": "Mynor Vásquez"},
+        { "imagen": "assets/img/LucasRecurso.png", "name": "Edgar Lucas"},
+        { "imagen": "assets/img/BryanRecurso-4.png", "name": "Bryan Tema"},
+        { "imagen": "assets/img/SofiaRecurso-1.png", "name": "Sofia Méndez"},
+        { "imagen": "assets/img/JorgeRecurso-6.png", "name": "Jorge Rodriguez"},
+        { "imagen": "assets/img/KennetRecurso.png", "name": "Kennet Rodriguez"}
+      ],
+      "docentes": [
+        { "imagen": "assets/img/profile-placeholder.jpg", "name": "Ing. Steveen Blanco"},
+        { "imagen": "assets/img/profile-placeholder.jpg", "name": "Ing. Raúl Pacheco"}
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica",
+      "name": "Vehículo detector de obstáculos",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "vehiculo-detector-de-obstaculos",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Máquina de Goldberg 40 pasos Grupo A",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "maquina-goldber-grupo-a",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Sistema planetario GeoGebra Grupo A",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "sistema-planetario-grupo-a",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Eliminacion de Bacterias en agua para consumo humano",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "eliminacion-de-backterias-en-agua",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Sistema planetaria GeoGebra Grupo B",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "sistema-planetario-grupo-b",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Máquina de Goldberg 40 pasos Grupo B",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "maquina-de-goldberg-grupo-b",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica e Informatica",
+      "name": "Centros de Vacunación",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "centros-de-vacunacion",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica e Informatica",
+      "name": "Video Juego - Salvémonos del COVID-19",
+      "horario": "09:00 - 09:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "video-juego-covid",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica",
+      "name": "Casa domótica",
+      "horario": "10:00 - 10:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "casa-domotica",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Sistema automático para separar botonetas por color",
+      "horario": "10:00 - 10:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "sistema-botonetas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Resolución del Método Euler",
+      "horario": "10:00 - 10:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "resolucion-euler",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Automatizacion en el Cuidado de las Plantas",
+      "horario": "10:00 - 10:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "automatizacion-plantas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Máquina de Goldberg 40 pasos Grupo C",
+      "horario": "10:00 - 10:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "maquina-de-bolberg-grupo-c",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica",
+      "name": "Robot 3 en 1 con Arduino, vehiculo autónomo digital",
+      "horario": "11:00 - 11:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "robot-3-en-1-con-arduino",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica",
+      "name": "Brazo robótico",
+      "horario": "11:00 - 11:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "brazo-robotico",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/llenado-pinturas/proyecto-pintura.jpeg",
+      "category": "Electrónica e Informatica",
+      "name": "Llenado en la selección automática de envases en Fábrica de Pinturas",
+      "horario": "11:00 - 11:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "llenado-envases-pintura",
+      "description": "Es un prototipo para un sistema autónomo que se basa en el llenado de envases de pinturas el cual es monitoreado contantemente por medio de sensores digitales el cual es procesado y enviado vía Radio Frecuencias a un panel central el cual es gestionado y enviado a una BD (Base De Datos) y así poder monitorear contantemente los productos terminados, dependiendo del código de barras detectado así será su color dispensado, cabe resaltar que es un circuito con detección de errores lo que quiere decir que si hay algún problema en el sistema el dispositivo nos lo indicara atreves de sus distintas señalizaciones.",
+      "integrantes": [
+        {
+          "imagen": "assets/img/llenado-pinturas/donald.jpg",
+          "name": "Donald Jerónimo"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/walter.jpg",
+          "name": "Walter Chingo"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/jheremy.jpg",
+          "name": "Jheremy Martinez"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/eva.jpg",
+          "name": "Eva Marroquin"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/fernando.jpg",
+          "name": "Fernando Ramirez"
+        },
+        {
+          "imagen": "assets/img/llenado-pinturas/lester.jpg",
+          "name": "Lester Alfaro"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/docentes/jorge-lopez.jpg",
+          "name": "Ing. Jorge López"
+        },
+        {
+          "imagen": "assets/img/docentes/walter-oliva.jpg",
+          "name": "Ing. Walter Oliva"
+        },
+        {
+          "imagen": "assets/img/docentes/ruben-rodas.jpg",
+          "name": "Ing. Ruben Rodas"
+        },
+        {
+          "imagen": "assets/img/docentes/billy-asturias.jpg",
+          "name": "Ing. Billy Asturias"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica e Informatica",
+      "name": "COVID Monitoreo de Temperatura",
+      "horario": "11:00 - 11:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "covid-monitoreo-temperatura",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica e Informatica",
+      "name": "Ally Cane/Baston Aliado",
+      "horario": "11:00 - 11:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "baston-aliado",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Tecnología de Información y comunicaciones",
+      "name": "Sistema Purificador de ambiente",
+      "horario": "11:00 - 11:45 AM",
+      "live": "https://streamyard.com/",
+      "slug": "purificador-de-ambiente",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica",
+      "name": "Propeller",
+      "horario": "12:00 - 12:45 PM",
+      "live": "https://streamyard.com/",
+      "slug": "propeller",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Electrónica",
+      "name": "Faja Transportadora",
+      "horario": "12:00 - 12:45 PM",
+      "live": "https://streamyard.com/",
+      "slug": "faja-transportadora",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Safe Trip/ Sistema Automatizado Transporte Publico",
+      "horario": "12:00 - 12:45 PM",
+      "live": "https://streamyard.com/",
+      "slug": "safe-trip",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Sistema planetario GeoGebra Grupo C",
+      "horario": "12:00 - 12:45 PM",
+      "live": "https://streamyard.com/",
+      "slug": "sistema-planetario-grupo-c",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "Máquina de Goldberg 40 pasos Grupo D",
+      "horario": "12:00 - 12:45 PM",
+      "live": "https://streamyard.com/",
+      "slug": "maquina-de-golberg-grupo-d",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    },
+    {
+      "imagen": "assets/img/banner-projects.jpg",
+      "category": "Ciencias Naturales",
+      "name": "PDF SCRAPING",
+      "horario": "12:00 - 12:45 PM",
+      "live": "https://streamyard.com/",
+      "slug": "pdf-scraping",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "integrantes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Integrante"
+        }
+      ],
+      "docentes": [
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        },
+        {
+          "imagen": "assets/img/profile-placeholder.jpg",
+          "name": "Nombre Docente"
+        }
+      ]
+    }
+  ]
+}

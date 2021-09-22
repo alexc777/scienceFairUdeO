@@ -1,18 +1,117 @@
 <section class="l-section s-py-4 bg_banner_list">
   <div class="ed-grid lg-grid-2 row-gap s-gap-2 m-gap-4 m-cross-center">
     <div class="s-column s-main-center lg-main-start lg-cross-start s-center lg-left">
-      <h1>Máquina de Goldberg</h1>
-      <p>Categoría:</p>
-      <p>Horario:</p>
-      <p>Compartir:</p>
+      <h1> {{ objProject.name }} </h1>
 
-      <h2>¿Que te parecio el proyecto?</h2>
+      <p class="time_event" title="Horario del Proyecto"> {{ objProject.horario }} </p>
+      <p class="category_event" title="Categoría del Proyecto"> {{ objProject.category }} </p>
+      <p class="live_event" title="Live del Proyecto"><a href="#" target="_blank"> {{ objProject.live}} </a></p>
+      <p class="phone_left">Compartir por:</p>
+      <share-buttons [theme]="'outline'"
+                     [show]="4"
+                     [showText]="false"
+                     [include]="['facebook','twitter','whatsapp','copy']"></share-buttons>
+
+      <h2 class="top_votacion">¿Que te parecio el proyecto?</h2>
+      <div class="container_voutes">
+        <div class="item_voute" (click)="sendVoute()">
+          <img src="assets/img/meencanta.png" alt="Mejor Proyecto">
+          ¡Me encanta!
+        </div>
+
+        <div class="item_voute" (click)="sendVoute()">
+          <img src="assets/img/estabien.png" alt="Buen proyecto">
+          Está bien
+        </div>
+
+        <div class="item_voute" (click)="sendVoute()">
+          <img src="assets/img/mejorar.png" alt="prodria mejorar">
+          Podría mejorar
+        </div>
+      </div>
     </div>
 
     <div>
       <div class="img-container s-ratio-16-9">
-        <img class="s-radius-1" src="assets/img/banner-projects.jpg">
+        <img class="s-radius-1" [src]="objProject.imagen">
       </div>
     </div>
   </div>
 </section>
+
+<div class="ed-container spacer_info_phone">
+  <div class="ed-item spi spd">
+    <div class="projecto_description">
+      <h1>Acerca de este proyecto</h1>
+
+      <p>
+        {{ objProject.description }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="ed-container spacer_info_phone">
+  <div class="ed-item spi spd">
+    <div class="projecto_description">
+      <h1>Integrantes</h1>
+
+      <div class="ed-grid s-grid-2 m-grid-4 lg-grid-5 row-gap-2 s-cols-6 lg-cols-10 s-x-3 lg-x-1">
+        <article class="s-mb-0 s-pxy-2" *ngFor="let integrante of objProject.integrantes">
+          <div class="img-container circle s-mb-2 s-px-2">
+            <div>
+              <img [src]="integrante.imagen" [alt]="integrante.name">
+            </div>
+          </div>
+
+          <div class="info_member">
+            <p class="name_member">{{integrante.name}}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ed-container spacer_info_phone">
+  <div class="ed-item spi spd">
+    <div class="projecto_description">
+      <h1>Docentes</h1>
+
+      <div class="ed-grid s-grid-2 m-grid-4 lg-grid-5 row-gap-2 s-cols-6 lg-cols-10 s-x-3 lg-x-1">
+        <article class="s-mb-0 s-pxy-2" *ngFor="let docente of objProject.docentes">
+          <div class="img-container circle s-mb-2 s-px-2">
+            <div>
+              <img [src]="docente.imagen" [alt]="docente.name">
+            </div>
+          </div>
+
+          <div class="info_member">
+            <p class="name_member">{{docente.name}}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Login -->
+<div class="overlay" id="overlay" [class.active]="activeModal">
+  <div class="popup" id="popup" [class.active]="activeModal">
+    <div class="btn-cerrar-popup" (click)="toggleModal()"></div>
+
+    <div class="body_popup">
+      <h3>¿Estas intentando votar?</h3>
+      <h4>Para poder dar tu voto desbe de registrarte en el sistema.</h4>
+
+      <div class="container_btn__login">
+        <p>Registrarme con:</p>
+        <button type="button" class="button btn_login" (click)="loginGoogle()">
+          <img src="assets/img/google.svg" alt="logo de google">
+          Google
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+

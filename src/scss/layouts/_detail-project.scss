@@ -1,0 +1,101 @@
+.bg_banner_list {
+  p {
+    margin-bottom: 10px;
+
+    @include to(m) {
+      &.phone_left {
+        text-align: left;
+      }
+    }
+  }
+
+  .time_event {
+    padding-left: 35px;
+    background: url('../img/horario.svg') no-repeat 5px center;
+    background-size: contain;
+
+    @include to(m) {
+      text-align: left;
+    }
+  }
+
+  .category_event {
+    padding-left: 35px;
+    background: url('../img/tag.svg') no-repeat 5px center;
+    background-size: contain;
+
+    @include to(m) {
+      text-align: left;
+    }
+  }
+
+  .live_event {
+    padding-top: 5px;
+    padding-left: 35px;
+    background: url('../img/live.svg') no-repeat 5px center;
+    background-size: contain;
+
+    @include to(m) {
+      text-align: left;
+    }
+  }
+
+  .top_votacion {
+    @include to(m) {
+      margin-top: 10px;
+    }
+  }
+}
+
+.container_voutes {
+  float: left;
+  width: 100%;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  justify-content: flex-start;
+
+  @include to(m) {
+    justify-content: center;
+  }
+}
+
+.item_voute {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: 50px;
+    margin-bottom: 8px;
+  }
+}
+
+.projecto_description {
+  padding: 1.5rem;
+  position: relative;
+  border-radius: .5rem;
+  margin-bottom: 35px;
+  border: 1px solid #eff3f5;
+  background: var(--blanco);
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    border-radius: 32px 0 0 32px;
+    left: 0;
+    background: var(--marron-alt);
+  }
+}
+
+.spacer_info_phone {
+  @include to(m) {
+    padding: 0 10px;
+  }
+}
