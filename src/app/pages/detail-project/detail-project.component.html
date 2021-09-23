@@ -5,7 +5,7 @@
 
       <p class="time_event" title="Horario del Proyecto"> {{ objProject.horario }} </p>
       <p class="category_event" title="Categoría del Proyecto"> {{ objProject.category }} </p>
-      <p class="live_event" title="Live del Proyecto"><a href="#" target="_blank"> {{ objProject.live}} </a></p>
+      <p class="live_event" title="Live del Proyecto"><a [href]="objProject.live" target="_blank"> {{ objProject.live }} </a></p>
       <p class="phone_left">Compartir por:</p>
       <share-buttons [theme]="'outline'"
                      [show]="4"
