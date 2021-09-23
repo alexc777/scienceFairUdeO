@@ -51,13 +51,14 @@ export class DetailProjectComponent implements OnInit {
   getParams() {
     this.router.params.subscribe(params => {
       this.routeParams = params;
-      console.log(this.routeParams);
+      console.log('slug: ', this.routeParams);
     });
   }
 
   getProjects() {
     this.detailServices.getProjects(this.routeParams.slug).subscribe((data:any) => {
       this.objProject = data;
+      console.log('InfoProyect: ', this.objProject);
     },(error: any) => {
       console.log('Error: ', error);
     })
