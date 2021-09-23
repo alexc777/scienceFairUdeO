@@ -1,11 +1,11 @@
 <section class="l-section s-py-4 bg_banner_list">
   <div class="ed-grid lg-grid-2 row-gap s-gap-2 m-gap-4 m-cross-center">
     <div class="s-column s-main-center lg-main-start lg-cross-start s-center lg-left">
-      <h1>Máquina de Goldberg</h1>
+      <h1> {{ objProject.name }} </h1>
 
-      <p class="time_event" title="Horario del Proyecto">09:00 - 09:45 AM</p>
-      <p class="category_event" title="Categoría del Proyecto">Electrónica y Programación</p>
-      <p class="live_event" title="Live del Proyecto"><a href="#" target="_blank">Link evento</a></p>
+      <p class="time_event" title="Horario del Proyecto"> {{ objProject.horario }} </p>
+      <p class="category_event" title="Categoría del Proyecto"> {{ objProject.category }} </p>
+      <p class="live_event" title="Live del Proyecto"><a [href]="objProject.live" target="_blank"> {{ objProject.live }} </a></p>
       <p class="phone_left">Compartir por:</p>
       <share-buttons [theme]="'outline'"
                      [show]="4"
@@ -33,7 +33,7 @@
 
     <div>
       <div class="img-container s-ratio-16-9">
-        <img class="s-radius-1" src="assets/img/banner-projects.jpg">
+        <img class="s-radius-1" [src]="objProject.imagen">
       </div>
     </div>
   </div>
@@ -45,10 +45,7 @@
       <h1>Acerca de este proyecto</h1>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eos? Repellendus voluptas consectetur blanditiis, vitae sit, cum magnam possimus quam animi quia asperiores dolor! Dolorum est excepturi rerum ut ad.
-        Ducimus corporis, nostrum praesentium neque at odit earum sed velit maxime voluptates sit iste. Voluptatum provident veritatis ab, labore fuga nisi, dolore dignissimos voluptas aspernatur distinctio, illum itaque adipisci inventore!
-        Libero qui quia, aperiam ipsam assumenda ut possimus rerum nesciunt adipisci in eveniet reiciendis repudiandae eaque, vero pariatur omnis perferendis optio suscipit. Asperiores dolor impedit nulla quam mollitia tempore temporibus.
-        Assumenda accusamus quis deserunt quasi quisquam, hic reprehenderit aspernatur aliquam explicabo nesciunt nisi sunt, quia temporibus cupiditate at vel aut! Natus laboriosam aliquam temporibus tenetur ab sit ullam reiciendis error!
+        {{ objProject.description }}
       </p>
     </div>
   </div>
@@ -60,10 +57,10 @@
       <h1>Integrantes</h1>
 
       <div class="ed-grid s-grid-2 m-grid-4 lg-grid-5 row-gap-2 s-cols-6 lg-cols-10 s-x-3 lg-x-1">
-        <article class="s-mb-0 s-pxy-2" *ngFor="let integrante of arrTeam">
+        <article class="s-mb-0 s-pxy-2" *ngFor="let integrante of objProject.integrantes">
           <div class="img-container circle s-mb-2 s-px-2">
             <div>
-              <img [src]="integrante.image" [alt]="integrante.name">
+              <img [src]="integrante.imagen" [alt]="integrante.name">
             </div>
           </div>
 
@@ -82,15 +79,15 @@
       <h1>Docentes</h1>
 
       <div class="ed-grid s-grid-2 m-grid-4 lg-grid-5 row-gap-2 s-cols-6 lg-cols-10 s-x-3 lg-x-1">
-        <article class="s-mb-0 s-pxy-2" *ngFor="let integrante of arrTeam">
+        <article class="s-mb-0 s-pxy-2" *ngFor="let docente of objProject.docentes">
           <div class="img-container circle s-mb-2 s-px-2">
             <div>
-              <img [src]="integrante.image" [alt]="integrante.name">
+              <img [src]="docente.imagen" [alt]="docente.name">
             </div>
           </div>
 
           <div class="info_member">
-            <p class="name_member">{{integrante.name}}</p>
+            <p class="name_member">{{docente.name}}</p>
           </div>
         </article>
       </div>

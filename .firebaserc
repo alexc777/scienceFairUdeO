@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "feriaudeo"
+  },
+  "targets": {
+    "feriaudeo": {
+      "hosting": {
+        "scienceFairUdeO": [
+          "feriaudeo"
+        ]
+      }
+    }
   }
 }
