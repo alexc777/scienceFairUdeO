@@ -18,13 +18,13 @@
     <div class="title_filter">Categorías:</div>
 
     <ul class="list_categories">
-      <li class="list_item" *ngFor="let category of arrCategory"> {{ category.name }} </li>
+      <li class="list_item" *ngFor="let category of arrCategory" (click)="filterProjects(category.slug)"> {{ category.name }} </li>
     </ul>
   </div>
 </nav>
 
 <div class="ed-grid s-grid-1 m-grid-4">
-  <article class="s-shadow-bottom item_card_project" *ngFor="let project of arrProjects">
+  <article class="s-shadow-bottom item_card_project animate__animated animate__fadeIn" *ngFor="let project of arrProjects">
     <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr" [routerLink]="['/proyectos',project.slug]">
       <img [src]="project.imagen">
     </div>

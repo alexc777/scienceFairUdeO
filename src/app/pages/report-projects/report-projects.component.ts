@@ -20,6 +20,16 @@ export class ReportProjectsComponent implements OnDestroy {
     { "name": "Resolución del Método Euler","value": 35},
     { "name": "Automatizacion en el Cuidado de las Plantas","value": 40},
     { "name": "Ally Cane/Baston Aliado","value": 20},
+    { "name": "asf", "value": 20 },
+    { "name": "asf4564", "value": 20 },
+    { "name": "asf4564sd4654", "value": 20 },
+    { "name": "asf4564sd4654sdf456", "value": 20 },
+    { "name": "asf4564sd4654", "value": 20 },
+    { "name": "asf4564sd4", "value": 20 },
+    { "name": "4554asf4564sd4", "value": 20 },
+    { "name": "4554dretasf4564sd4", "value": 20 },
+    { "name": "4554Aasf4564sd4", "value": 20 },
+    { "name": "asf4gg564sd4", "value": 20 },
   ];
 
   // options
@@ -28,9 +38,9 @@ export class ReportProjectsComponent implements OnDestroy {
   gradient  = true;
   showLegend = false;
   showXAxisLabel = true;
-  xAxisLabel = 'Proyectos';
+  xAxisLabel = 'Votos';
   showYAxisLabel = true;
-  yAxisLabel = 'Votos';
+  yAxisLabel = 'Proyectos';
 
   colorScheme = 'nightLights';
 
