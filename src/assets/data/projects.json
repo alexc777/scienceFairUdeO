@@ -177,7 +177,7 @@
     {
       "imagen": "assets/img/goldberg-f/goldberg-f.png",
       "category": "Ciencias Naturales",
-      "name": "Máquina de Goldberg 40 pasos Grupo F",
+      "name": "Máquina de Goldberg 40 pasos Grupo F",
       "horario": "09:00 - 09:45 AM",
       "live": "https://streamyard.com/",
       "slug": "maquina-de-golberg-grupo-f",
@@ -299,7 +299,7 @@
           "name": "Kelly Ipiña"
         }
       ],
-    
+
       "docentes": [
         {
           "imagen": "assets/img/docentes/juan-suchi.png",
@@ -551,7 +551,7 @@
       "imagen": "assets/img/llenado-pinturas/proyecto-pintura.jpeg",
       "category": "Electrónica e Informatica",
       "name": "Llenado en la selección automática de envases en Fábrica de Pinturas",
-      "horario": "11:00 - 11:45 AM",
+      "horario": "12:00 - 12:45 AM",
       "live": "https://streamyard.com/",
       "slug": "llenado-envases-pintura",
       "description": "Es un prototipo para un sistema autónomo que se basa en el llenado de envases de pinturas el cual es monitoreado contantemente por medio de sensores digitales el cual es procesado y enviado vía Radio Frecuencias a un panel central el cual es gestionado y enviado a una BD (Base De Datos) y así poder monitorear contantemente los productos terminados, dependiendo del código de barras detectado así será su color dispensado, cabe resaltar que es un circuito con detección de errores lo que quiere decir que si hay algún problema en el sistema el dispositivo nos lo indicara atreves de sus distintas señalizaciones.",
@@ -920,7 +920,7 @@
       "imagen": "assets/img/sis-comandas/siscom.png",
       "category": "Electrónica e Informatica",
       "name": "SISCOM (Sistema de Comandas)",
-      "horario": "12:00 pm",
+      "horario": "12:00 - 12:45 PM",
       "live": "https://youtu.be/X3oCFh0JgNo",
       "slug": "siscom",
       "description": "Eco Restaurante San Luis, ubicado en Aldea El Hato, Antigua Guatemala ofrece un concepto al aire libre, rodeado de naturaleza. El proyecto SISCOM surge en el momento que los meseros toman la orden a los comensales, anotando en una libreta la orden. En ocasiones, las ordenes tienden a ser confundidas al momento de servirlas debido a que no se da el seguimiento adecuado entre orden y número de mesa durante los tiempos de alta demanda de servicio. Por lo cual, el proyecto consiste en realizar la toma de ordenes por medio de un dispositivo móvil Android.",
@@ -933,6 +933,6 @@
         { "imagen": "assets/img/docentes/jorge-lopez.jpg", "name": "Ing. Jorge López"}
       ]
     }
-  
+
   ]
 }

@@ -31,7 +31,7 @@ export class ListProjectsComponent implements OnInit {
         category: 'elec_progra',
         name: 'Sistema de exposición y Votaciones',
         slug: 'sistema-de-exposicion-y-votaciones',
-        description: 'Sistema desarrollado con tecnologías web y .Net que permite la exposición de proyectos y asignar una calificación'
+        description: 'Se desarrolló con un conjunto de tecnologías populares, ya que el flujo de trabajo es eficiente, éstas tecnologías engloban a Angular para el frontend y .Net core para el backend. El sistema consta de 2 secciones, Landing Page permite ver el tráiler de la funcionalidad del proyecto y el área de proyectos, donde se permite realizar diversas acciones entre ellas, visualizar el listado de proyectos y filtrar por categoría. Ver el detalle de un proyecto, como su horario de exposición, categoría, link del LIVE, votar por el proyecto, entre otras. En la pestaña de métricas, es posible visualizar los votos de cada proyecto y verificar el proyecto con mayor puntaje. Por, otro lado, en el apartado de equipo, muestra información de los involucrados a lo largo del desarrollo del sistema, mostrando su rol en el proyecto y una frase que caracteriza al integrante. Mientras que, en acerca de, se encuentra la documentación detallada del proceso, adicional, se menciona que, la metodología utilizada, para el desarrollo fue SCRUM, permitiendo el control de tareas y tiempos de entrega, también el uso de herramientas Case fue clave para facilitar el proceso de desarrollo, por último, se brinda una documentación que explica el despliegue del proyecto hacia producción luego de haber aprobado su etapa de QA. La finalidad del desarrollo del sistema fue brindar una plataforma que permitirá a los estudiantes de UdeO Montesquieu dar a conocer sus proyectos y el proceso que se realizó para cumplir la meta de entregar un proyecto de calidad y funcional demostrando sus habilidades y conocimientos.'
       },
       {
         imagen: 'assets/img/covid-temperatura/covid-temp.png',
@@ -69,11 +69,11 @@ export class ListProjectsComponent implements OnInit {
         description: 'Eliminación de bacterias de agua contaminada utilizando luces led ultravioleta'
       },
       {
-        imagen: 'assets/img/solar-geogebra-b/solar-b.png',
+        imagen: 'assets/img/goldberg-f/goldberg-f.png',
         category: 'naturales',
-        name: 'Sistema planetaria GeoGebra Grupo B',
-        slug: 'sistema-planetario-grupo-b',
-        description: 'Animación de sistema solar con imágenes de los planetas y modelo 3D el cual fue creado por medio de GeoGebra software de matemáticas dinámicas libre para todas las áreas de las matemáticas'
+        name: 'Máquina de Goldberg 40 pasos Grupo F',
+        slug: 'maquina-de-golberg-grupo-f',
+        description: 'Es una maquina con pasos sencillos que se activo por medio de una pelota o carrito y este desencadenara un efecto cadena por medio de 40 pasos o diferentes estaciones, para poder abrir el baúl de carro y sus 4 ventanas.'
       },
       {
         imagen: 'assets/img/goldberg-b/golfberg.png',
@@ -118,11 +118,11 @@ export class ListProjectsComponent implements OnInit {
         description: 'El proyecto consiste en a realización de un solucionador automatizado que calculara y graficar el método de Euler mediante algoritmos de Analítica Avanzada de la Ciencia de Datos.'
       },
       {
-        imagen: 'assets/img/banner-projects.jpg',
+        imagen: 'assets/img/cuidado-plantas/cuidado-plantas.png',
         category: 'naturales',
         name: 'Automatizacion en el Cuidado de las Plantas',
         slug: 'automatizacion-plantas',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
+        description: 'El proyecto consiste en la automatización para el cuidado de las plantas, un proyecto bastante económico que se basa en controlar el estado de humedad de las plantas para evitar que se marchiten y además es una gran ventaja para la persona que cuida las plantas ya que no tiene necesidad de que la persona controle las plantas en cada momento sino que el aparato que se construyó para satisfacer las necesidades de la persona con el cuidado de sus plantas y además nos ofrece para modo manual y modo automático y por medio de un controlador que hace todo el proceso y sensores para medir humedad en las plantas que se tienen en el hogar y una bomba que permitirá el riego hacia la plantas.'
       },
       {
         imagen: 'assets/img/goldberg-c/golberg-c.jpg',
@@ -174,18 +174,18 @@ export class ListProjectsComponent implements OnInit {
         description: 'Nuestro proyecto consiste en un motor que hace girar una base, la cuál, consta de un Arduino, un módulo Bluetooth y una matriz LED. El objetivo de nuestro proyecto es desplegar texto y diseños de figuras, aplicando conocimientos de electrónica y programación ya que, al mismo tiempo, quisimos desarrollarlo de una manera interactiva. Como todos sabemos los cables están quedando obsoletos, por lo tanto, hemos hecho uso de un modulo para controlarlo a través de una aplicación y así cargar la información a nuestra matriz LED'
       },
       {
-        imagen: 'assets/img/banner-projects.jpg',
+        imagen: 'assets/img/faja/faja.jpeg',
         category: 'electronica',
         name: 'Faja Transportadora',
         slug: 'faja-transportadora',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
+        description: 'El proyecto consta de una banda transportadora fabricada desde cero con un motor monofásico 120V y una banda de material de cuero con fibra para el fácil transporte de los productos de un lado de la banda al otro, adicional consta de sensores infrarrojos para la detección de 1 tamaño de producto este a definir dependiendo del uso que se le desee dar este sensor nos sirve para poder contabilizar los productos y poder almacenar la cantidad en un Excel así poder llevar el control de los mismos adicional cuenta con otro sensor que detectara si el producto no es de esta línea esto para tener un mayor control y evitar cruce de productos adicional contara con un descarte por medio de un actuador eléctrico para retirar el producto que no sea de esta línea. Cuenta con una producción programada de 10 productos por despacho para poder mejorar el control dentro de la línea de producción o donde se desee implementar'
       },
       {
-        imagen: 'assets/img/banner-projects.jpg',
+        imagen: 'assets/img/safe/safe.png',
         category: 'naturales',
         name: 'Safe Trip/ Sistema Automatizado Transporte Publico',
         slug: 'safe-trip',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
+        description: 'Sistema diseñado para controlar de forma estricta la cantidad de pasajeros en una unidad de transporte públicopreviniendo la sobrecarga de usuarios en la unidad y minimizando contagios de enfermedades respiratorias.'
       },
       {
         imagen: 'assets/img/solar-geogebra-c/solar-c.png',
@@ -199,7 +199,7 @@ export class ListProjectsComponent implements OnInit {
         category: 'naturales',
         name: 'Máquina de Goldberg 40 pasos Grupo D',
         slug: 'maquina-de-golberg-grupo-d',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
+        description: 'Se realizarán 40 pasos para formar la máquina de Rube Goldberg.'
       },
       {
         imagen: 'assets/img/pdf/pdf-scap.png',
