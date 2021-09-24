@@ -19,6 +19,10 @@ const routes: Routes = [
 
   { path: 'landing', loadChildren: () => import('./public/landing/landing.module').then(m => m.LandingModule) },
 
+  { path: 'login', loadChildren: () => import('./auth/login/login.module').then(m => m.LoginModule) },
+  { path: 'adminmembers', loadChildren: () => import('./auth/members/members.module').then(m => m.MembersModule) },
+  { path: 'adminprojects', loadChildren: () => import('./auth/projects/projects.module').then(m => m.ProjectsModule) },
+
   { path: '**', loadChildren: () => import('./errors/page-not-found/page-not-found.module').then(m => m.PageNotFoundModule) },
 ];
 
