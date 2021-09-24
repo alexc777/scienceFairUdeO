@@ -8,12 +8,12 @@ import { Component, OnDestroy } from '@angular/core';
 export class ReportProjectsComponent implements OnDestroy {
 
   results: any[] = [
-    {"name": "Sistema de Votaciones","value": 20},
+    {"name": "Sistema de Votaciones","value": 80},
     {"name": "Maquina de Goldberg","value": 25},
     {"name": "Control de temperatura","value": 15},
     {"name": "Vehículo detector de obstáculos","value": 60},
     { "name": "Máquina de Goldberg 40 pasos Grupo A","value": 75},
-    { "name": "Video Juego - Salvémonos del COVID-19","value": 85},
+    { "name": "Video Juego - Salvémonos del COVID-19","value": 50},
     { "name": "Casa domótica","value": 10},
     { "name": "Sistema automático para separar botonetas por color","value": 45},
     { "name": "Centros de Vacunación","value": 50},
