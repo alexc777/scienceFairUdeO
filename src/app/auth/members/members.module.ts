@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { MembersRoutingModule } from './members-routing.module';
 import { MembersComponent } from './members.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { MembersComponent } from './members.component';
   ],
   imports: [
     CommonModule,
-    MembersRoutingModule
+    MembersRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class MembersModule { }

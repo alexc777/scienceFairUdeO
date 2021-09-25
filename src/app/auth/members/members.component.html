@@ -1,1 +1,108 @@
-<p>members works!</p>
+<div class="container mt-5">
+  <div class="ed-container full">
+    <div class="ed-item s-100 m-50">
+      <h1>Administración Integrantes y Docentes</h1>
+    </div>
+
+    <div class="ed-item s-100 m-50">
+      <button type="button" class="btn btn-outline-primary btn-sm mr-2" [routerLink]="['/adminprojects']">⬅️ Regresar</button>
+    </div>
+  </div>
+  <hr>
+
+  <form class="row" [formGroup]="forma" (ngSubmit)="crearMiembro()">
+    <div class="col-6">
+      <div class="form-group">
+        <label>Tipo integrante</label>
+        <select class="custom-select" formControlName="tipo">
+          <option value="alumno" selected>Alumno</option>
+          <option value="docente">Docente</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" class="form-control" placeholder="Nombre..." formControlName="nombre">
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="form-group">
+        <label>Apellido</label>
+        <input type="text" class="form-control" placeholder="Apellido..." formControlName="apellido">
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6">
+      <div class="form-group">
+        <label>Imagen</label>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" lang="es" formControlName="imagen"
+            (change)="fileChangeEvent($event)">
+          <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6">
+      <div class="form-group">
+        <label>Pre visualización</label>
+        <ng-container *ngIf="isImageSaved; else elseTemplate">
+          <div class="text-center">
+            <img [src]="cardImageBase64" class="rounded" alt="imagen-integrante">
+          </div>
+        </ng-container>
+
+        <ng-template #elseTemplate>
+          <div class="text-center">
+            <img src="assets/img/profile-placeholder.jpg" class="rounded" alt="imagen-integrante">
+          </div>
+        </ng-template>
+      </div>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center mt-4">
+      <button type="submit" class="btn btn-outline-success">Crear Integrante</button>
+    </div>
+  </form>
+
+  <div class="ed-container full">
+    <div class="ed-item s-100 m-50">
+      <div class="table-responsive mt-5">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Listado de Integrante</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Juan Perez</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="ed-item s-100 m-50">
+      <div class="table-responsive mt-5">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Listado de Docentes</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Ing. Juan Perez</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

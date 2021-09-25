@@ -10,11 +10,20 @@ export class AdminService {
 
   constructor(private http: HttpClient, private errorService: ErrorsService) { }
 
-  get headers() {
+  get headersPost() {
     return {
       headers: new HttpHeaders({
         Accept: 'application/json',
         'Content-Type': 'application/x-www-form-urlencoded',
+      })
+    }
+  }
+
+  get headers() {
+    return {
+      headers: new HttpHeaders({
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
       })
     }
   }
@@ -26,7 +35,20 @@ export class AdminService {
 
     const url = 'http://desasoft2-001-site1.htempurl.com/site/rest';
 
-    return this.http.post(url, body, this.headers).pipe(
+    return this.http.post(url, body, this.headersPost).pipe(
+      tap((resp: any) => {
+        console.log(resp);
+      }), catchError((err) => {
+        return this.errorService.handleError(err);
+      })
+    );
+  }
+
+  getCategorias() {
+
+    const url = 'http://desasoft2-001-site1.htempurl.com/site/rest/categoria';
+
+    return this.http.get(url, this.headers).pipe(
       tap((resp: any) => {
         console.log(resp);
       }), catchError((err) => {
