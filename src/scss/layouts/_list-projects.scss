@@ -3,6 +3,7 @@
 
   h1 {
     font-size: var(--dash-bigger);
+    font-weight: var(--font-bold);
   }
 }
 
@@ -71,6 +72,13 @@
   img {
     cursor: pointer;
   }
+
+  h3 {
+    font-size: 1.17em;
+    font-weight: var(--font-bold);
+  }
+
+
   .button {
     color: var(--marron);
     background: transparent;

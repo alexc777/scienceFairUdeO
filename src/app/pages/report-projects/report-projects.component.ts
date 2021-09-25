@@ -8,28 +8,18 @@ import { Component, OnDestroy } from '@angular/core';
 export class ReportProjectsComponent implements OnDestroy {
 
   results: any[] = [
-    {"name": "Sistema de Votaciones","value": 20},
+    {"name": "Sistema de Votaciones","value": 80},
     {"name": "Maquina de Goldberg","value": 25},
     {"name": "Control de temperatura","value": 15},
     {"name": "Vehículo detector de obstáculos","value": 60},
     { "name": "Máquina de Goldberg 40 pasos Grupo A","value": 75},
-    { "name": "Video Juego - Salvémonos del COVID-19","value": 85},
+    { "name": "Video Juego - Salvémonos del COVID-19","value": 50},
     { "name": "Casa domótica","value": 10},
     { "name": "Sistema automático para separar botonetas por color","value": 45},
     { "name": "Centros de Vacunación","value": 50},
     { "name": "Resolución del Método Euler","value": 35},
     { "name": "Automatizacion en el Cuidado de las Plantas","value": 40},
     { "name": "Ally Cane/Baston Aliado","value": 20},
-    { "name": "asf", "value": 20 },
-    { "name": "asf4564", "value": 20 },
-    { "name": "asf4564sd4654", "value": 20 },
-    { "name": "asf4564sd4654sdf456", "value": 20 },
-    { "name": "asf4564sd4654", "value": 20 },
-    { "name": "asf4564sd4", "value": 20 },
-    { "name": "4554asf4564sd4", "value": 20 },
-    { "name": "4554dretasf4564sd4", "value": 20 },
-    { "name": "4554Aasf4564sd4", "value": 20 },
-    { "name": "asf4gg564sd4", "value": 20 },
   ];
 
   // options
@@ -38,9 +28,9 @@ export class ReportProjectsComponent implements OnDestroy {
   gradient  = true;
   showLegend = false;
   showXAxisLabel = true;
-  xAxisLabel = 'Votos';
+  xAxisLabel = 'Proyectos';
   showYAxisLabel = true;
-  yAxisLabel = 'Proyectos';
+  yAxisLabel = 'Votos';
 
   colorScheme = 'nightLights';
 

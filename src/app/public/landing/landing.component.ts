@@ -69,8 +69,8 @@ export class LandingComponent {
       {
         video: 'Wop0_G4L_uQ',
         slug: 'naturales',
-        name: 'Sistema planetaria GeoGebra Grupo B',
-        link: 'proyectos/sistema-planetario-grupo-b',
+        name: 'Máquina de Goldberg 40 pasos Grupo F',
+        link: 'proyectos/maquina-de-golberg-grupo-f',
         category: 'Ciencias Naturales'
       },
       {
@@ -81,14 +81,14 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'TYOHVD90RPo',
         slug: 'elec_progra',
         name: 'Centros de Vacunación',
         link: 'proyectos/centros-de-vacunacion',
         category: 'Electrónica e Informatica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'rCszl-89qoA',
         slug: 'elec_progra',
         name: 'Video Juego - Salvémonos del COVID-19',
         link: 'proyectos/video-juego-covid',
@@ -102,14 +102,14 @@ export class LandingComponent {
         category: 'Electrónica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'GzIdR8r_tUw',
         slug: 'naturales',
         name: 'Sistema automático para separar botonetas por color',
         link: 'proyectos/sistema-botonetas',
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'BIKRy0Ti2I8',
         slug: 'naturales',
         name: 'Resolución del Método Euler',
         link: 'proyectos/resolucion-euler',
@@ -123,7 +123,7 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'bRxC9bRW25o',
         slug: 'naturales',
         name: 'Máquina de Goldberg 40 pasos Grupo C',
         link: 'proyectos/maquina-de-bolberg-grupo-c',
@@ -137,7 +137,7 @@ export class LandingComponent {
         category: 'Electrónica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'PXZvQ_2syZA',
         slug: 'electronica',
         name: 'Brazo robótico',
         link: 'proyectos/brazo-robotico',
@@ -151,7 +151,7 @@ export class LandingComponent {
         category: 'Electrónica e Informatica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'fuRlEUl0xbw',
         slug: 'elec_progra',
         name: 'Ally Cane/Baston Aliado',
         link: 'proyectos/baston-aliado',
@@ -179,7 +179,7 @@ export class LandingComponent {
         category: 'Electrónica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'OTPDjYbr78I',
         slug: 'naturales',
         name: 'Safe Trip/ Sistema Automatizado Transporte Publico',
         link: 'proyectos/safe-trip',

@@ -1,0 +1,111 @@
+<div class="container mt-5">
+  <div class="ed-container full">
+    <div class="ed-item s-100 m-50">
+      <h1>Administración de proyectos</h1>
+    </div>
+
+    <div class="ed-item s-100 m-50">
+      <button type="button" class="btn btn-outline-primary btn-sm mr-2" (click)="toggle('new')">Crear proyecto 💡</button>
+      <button type="button" class="btn btn-outline-primary btn-sm" (click)="toggle('list')">Listado de proyectos 🗂️</button>
+    </div>
+  </div>
+  <hr>
+
+  <form class="row" [formGroup]="forma" (ngSubmit)="crearProyecto()" *ngIf="!isShowList">
+    <div class="col-6">
+      <div class="form-group">
+        <label>Categoría</label>
+        <select class="custom-select" formControlName="categoria">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" class="form-control" placeholder="Nombre del proyecto" formControlName="nombre">
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="form-group">
+        <label>Horario</label>
+        <input type="text" class="form-control" placeholder="Ej: 09:00 - 09:45 AM" formControlName="horario">
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="form-group">
+        <label>URL Live</label>
+        <input type="text" class="form-control" placeholder="https://youtu.be/aIupTzTHWo0" formControlName="live">
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="form-group">
+        <label>Descripción</label>
+        <textarea rows="5" class="form-control" placeholder="Descripción del proyecto" style="resize: none;" formControlName="descripcion"></textarea>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6">
+      <div class="form-group">
+        <label>Imagen</label>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" lang="es" formControlName="imagen" (change)="fileChangeEvent($event)">
+          <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6">
+      <div class="form-group">
+        <label>Pre visualización</label>
+        <ng-container *ngIf="isImageSaved; else elseTemplate">
+          <div class="text-center">
+            <img [src]="cardImageBase64" class="rounded" alt="imagen-proyecto">
+          </div>
+        </ng-container>
+
+        <ng-template #elseTemplate>
+          <div class="text-center">
+            <img src="assets/img/banner-projects.jpg" class="rounded" alt="imagen-proyecto">
+          </div>
+        </ng-template>
+      </div>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center mt-4">
+      <button type="submit" class="btn btn-outline-success">Crear proyecto</button>
+    </div>
+  </form>
+
+  <div class="table-responsive mt-5" *ngIf="isShowList">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Projecto</th>
+          <th scope="col">Horario</th>
+          <th scope="col">Opciones</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th scope="row">Proyecto Demo</th>
+          <td>09:00 - 09:45 AM</td>
+          <td>
+            <button type="button" class="btn btn-outline-primary btn-sm mr-2 s-mb-1 m-mb-0" [routerLink]="['/adminmembers','project.id']">Asignar integrantes 👨‍🎓 👨‍🏫</button>
+            <button type="button" class="btn btn-outline-primary btn-sm">Asignar nota 📝</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
