@@ -67,7 +67,7 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'dk9Eld_r0gg',
         slug: 'naturales',
         name: 'Máquina de Goldberg 40 pasos Grupo F',
         link: 'proyectos/maquina-de-golberg-grupo-f',
@@ -165,7 +165,7 @@ export class LandingComponent {
         category: 'Tecnología de Información y comunicaciones'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'lQqEcAhcT-o',
         slug: 'electronica',
         name: 'Propeller',
         link: 'proyectos/propeller',
