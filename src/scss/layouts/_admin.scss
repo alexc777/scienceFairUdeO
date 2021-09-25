@@ -1,0 +1,15 @@
+.center_login {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .form_login {
+    width: 400px;
+    max-width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background: var(--blanco);
+  }
+}

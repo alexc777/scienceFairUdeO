@@ -41,6 +41,9 @@
   }
 
   .top_votacion {
+    font-size: 1.5em;
+    font-weight: var(--font-bold);
+
     @include to(m) {
       margin-top: 10px;
     }
@@ -91,6 +94,11 @@
     border-radius: 32px 0 0 32px;
     left: 0;
     background: var(--marron-alt);
+  }
+
+  h1 {
+    font-size: var(--dash-bigger);
+    font-weight: var(--font-bold);
   }
 }
 
