@@ -25,7 +25,7 @@ export class LandingComponent {
   filterProjects(fill: string): any {
     this.arrProjects = [
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'CDt_FMC7RYk',
         slug: 'elec_progra',
         name: 'Sistema de exposición y Votaciones',
         link: 'proyectos/sistema-de-exposicion-y-votaciones',
@@ -39,21 +39,21 @@ export class LandingComponent {
         category: 'Electrónica e Informatica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'hnS_Nvttgs4',
         slug: 'electronica',
         name: 'Vehículo detector de obstáculos',
         link: 'proyectos/vehiculo-detector-de-obstaculos',
         category: 'Electrónica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'IIY6x2CW98Y',
         slug: 'naturales',
         name: 'Máquina de Goldberg 40 pasos Grupo A',
         link: 'proyectos/maquina-goldber-grupo-a',
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'DnfbWcXBIFM',
         slug: 'naturales',
         name: 'Sistema planetario GeoGebra Grupo A',
         link: 'proyectos/sistema-planetario-grupo-a',
@@ -74,7 +74,7 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'UQQjpfHao3E',
         slug: 'naturales',
         name: 'Máquina de Goldberg 40 pasos Grupo B',
         link: 'proyectos/maquina-de-goldberg-grupo-b',
@@ -123,7 +123,7 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'bRxC9bRW25o',
+        video: 'saPXigFXagM',
         slug: 'naturales',
         name: 'Máquina de Goldberg 40 pasos Grupo C',
         link: 'proyectos/maquina-de-bolberg-grupo-c',
@@ -137,7 +137,7 @@ export class LandingComponent {
         category: 'Electrónica'
       },
       {
-        video: 'PXZvQ_2syZA',
+        video: 'kEbU1opW2Y4',
         slug: 'electronica',
         name: 'Brazo robótico',
         link: 'proyectos/brazo-robotico',
@@ -158,7 +158,7 @@ export class LandingComponent {
         category: 'Electrónica e Informatica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'nDbyqDYRl0M',
         slug: 'tec_info_comu',
         name: 'Sistema Purificador de ambiente',
         link: 'proyectos/purificador-de-ambiente',
@@ -172,7 +172,7 @@ export class LandingComponent {
         category: 'Electrónica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'BiiWlv06lEw',
         slug: 'electronica',
         name: 'Faja Transportadora',
         link: 'proyectos/faja-transportadora',
@@ -186,14 +186,14 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'WhmI-euL3YA',
         slug: 'naturales',
         name: 'Sistema planetario GeoGebra Grupo C',
         link: 'proyectos/sistema-planetario-grupo-c',
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'kh2tAss7fkc',
         slug: 'naturales',
         name: 'Máquina de Goldberg 40 pasos Grupo D',
         link: 'proyectos/maquina-de-golberg-grupo-d',
