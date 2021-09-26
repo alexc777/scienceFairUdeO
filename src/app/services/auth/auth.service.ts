@@ -6,7 +6,8 @@ import firebase from 'firebase/compat/app';
   providedIn: 'root',
 })
 export class AuthService {
-  constructor(private auth: AngularFireAuth) {}
+  public email: any = '';
+  constructor(private auth: AngularFireAuth) { }
 
   get token(): string {
     return localStorage.getItem('token') || '';
@@ -15,6 +16,10 @@ export class AuthService {
   async login() {
     this.googleLogin()
       .then((user) => {
+        console.log(user);
+        if (user) {
+          localStorage.setItem('email', user.email ? user.email : '');
+        }
         this.guardarLocalStorage(user?.refreshToken);
       })
       .catch((error) => {
@@ -22,6 +27,9 @@ export class AuthService {
       });
   }
 
+  getUser() {
+    return this.email;
+  }
   async googleLogin() {
     const provider = new firebase.auth.GoogleAuthProvider();
     const credential = await this.auth.signInWithPopup(provider);
@@ -36,6 +44,7 @@ export class AuthService {
     const result = token ? token : '';
     localStorage.setItem('token', result);
   }
+
 
   logout() {
     this.auth.signOut();

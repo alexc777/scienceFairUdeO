@@ -2,7 +2,8 @@
   <div class="ed-grid lg-grid-2 row-gap s-gap-2 m-gap-4 m-cross-center">
     <div class="s-column s-main-center lg-main-start lg-cross-start s-center lg-left">
       <h1>Calificación de Proyectos</h1>
-      <p>Acá encontraras una pequeña sección de reportería para que puedas observar como van las puntuaciones de tus proyectos favoritos, y enterate cual sera el Ganador.</p>
+      <p>Acá encontraras una pequeña sección de reportería para que puedas observar como van las puntuaciones de tus
+        proyectos favoritos, y enterate cual sera el Ganador.</p>
     </div>
 
     <div>
@@ -16,19 +17,10 @@
 <div class="ed-container">
   <div class="ed-item spi spd">
     <div class="charts_container">
-      <ngx-charts-bar-vertical
-        [scheme]="colorScheme"
-        [results]="results"
-        [gradient]="gradient"
-        [xAxis]="showXAxis"
-        [yAxis]="showYAxis"
-        [legend]="showLegend"
-        [showXAxisLabel]="showXAxisLabel"
-        [showYAxisLabel]="showYAxisLabel"
-        [xAxisLabel]="xAxisLabel"
-        [yAxisLabel]="yAxisLabel"
-        [legendTitle]="'Proyectos'">
-      </ngx-charts-bar-vertical>
+      <ngx-charts-bar-horizontal [scheme]="colorScheme" [results]="results" [gradient]="gradient" [xAxis]="showXAxis"
+        [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
+        [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" [legendTitle]="'Proyectos'">
+      </ngx-charts-bar-horizontal>
     </div>
   </div>
 </div>
