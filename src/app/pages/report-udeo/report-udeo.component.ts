@@ -201,9 +201,7 @@ export class ReportUdeoComponent implements OnInit {
           proyecto.total = 0;
           votos.forEach(voto => {
            if(voto.usuario != null){
-            let correoVoto = voto.usuario.split('@');
-
-            if(correoVoto[1] == 'montesquieu.edu.gt'){
+            //let correoVoto = voto.usuario.split('@');
               // console.log(correoVoto);
               const f_correo = this.arrCorreos.find((obj => obj.correo === voto.usuario))
               if(f_correo){
@@ -221,7 +219,7 @@ export class ReportUdeoComponent implements OnInit {
                 }
               }
 
-          }
+          
           }
           });
         });
