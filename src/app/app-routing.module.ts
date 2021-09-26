@@ -13,6 +13,8 @@ const routes: Routes = [
       { path: 'metricas', loadChildren: () => import('./pages/report-projects/report-projects.module').then(m => m.ReportProjectsModule) },
       { path: 'equipo', loadChildren: () => import('./pages/team/team.module').then(m => m.TeamModule) },
 
+      { path: 'reportudeo', loadChildren: () => import('./pages/report-udeo/report-udeo.module').then(m => m.ReportUdeoModule) },
+
       { path: '', redirectTo: 'proyectos', pathMatch: 'full' },
     ]
   },

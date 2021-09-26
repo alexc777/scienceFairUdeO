@@ -1,0 +1,36 @@
+<section class="l-section s-py-4 bg_banner_list">
+  <div class="ed-grid lg-grid-2 row-gap s-gap-2 m-gap-4 m-cross-center">
+    <div class="s-column s-main-center lg-main-start lg-cross-start s-center lg-left">
+      <h1>Votos del Jurado</h1>
+      <p>Acá encontraras los votos del equipo interno con el correo de UdeO Montesquieu</p>
+    </div>
+
+    <div>
+      <div class="img-container s-ratio-16-9">
+        <img class="s-radius-1" src="assets/img/banner-reports.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ed-container" *ngIf="isDesk">
+  <div class="ed-item spi spd">
+    <div class="charts_container">
+      <ngx-charts-bar-vertical [scheme]="colorScheme" [results]="results" [gradient]="gradient" [xAxis]="showXAxis"
+        [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
+        [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" [legendTitle]="'Proyectos'">
+      </ngx-charts-bar-vertical>
+    </div>
+  </div>
+</div>
+
+<div class="ed-container" *ngIf="!isDesk">
+  <div class="ed-item spi spd">
+    <div class="charts_container">
+      <ngx-charts-bar-horizontal [scheme]="colorScheme" [results]="results" [gradient]="gradient" [xAxis]="showXAxis"
+        [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
+        [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" [legendTitle]="'Proyectos'">
+      </ngx-charts-bar-horizontal>
+    </div>
+  </div>
+</div>
