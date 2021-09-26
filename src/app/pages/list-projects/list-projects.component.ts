@@ -55,6 +55,13 @@ export class ListProjectsComponent implements OnInit {
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
       },
       {
+        imagen: 'assets/img/sis-comandas/siscom.png',
+        category: 'elec_progra',
+        name: 'SISCOM (Sistema de Comandas)',
+        slug: 'siscom',
+        description: 'Eco Restaurante San Luis, ubicado en Aldea El Hato, Antigua Guatemala ofrece un concepto al aire libre, rodeado de naturaleza. El proyecto SISCOM surge en el momento que los meseros toman la orden a los comensales, anotando en una libreta la orden. En ocasiones, las ordenes tienden a ser confundidas al momento de servirlas debido a que no se da el seguimiento adecuado entre orden y número de mesa durante los tiempos de alta demanda de servicio. Por lo cual, el proyecto consiste en realizar la toma de ordenes por medio de un dispositivo móvil Android.'
+      },
+      {
         imagen: 'assets/img/solar-geogebra-a/sistema-solar-a.png',
         category: 'naturales',
         name: 'Sistema planetario GeoGebra Grupo A',
@@ -201,13 +208,6 @@ export class ListProjectsComponent implements OnInit {
         slug: 'pdf-scraping',
         description: 'El web Scraping es una herramienta bastante útil utilizada para extraer información de distintas páginas web desde el código fuente. Una vez extraída la información, se almacena en la base de datos del programa donde es procesada y compilada en una tabla, la cual se exporta como distintos archivos, en este caso, será exportado en PDF para poder abrir el documento y ver la recolección del Scraping de cualquier tipo de información. En el proyecto recopilaremos la información de distintas páginas web para hacer una o varias tablas con distintos temas como: Futbol, PIB, Índice de población en países, etc.'
       },
-      {
-        imagen: 'assets/img/sis-comandas/siscom.png',
-        category: 'elec_progra',
-        name: 'SISCOM (Sistema de Comandas)',
-        slug: 'siscom',
-        description: 'Eco Restaurante San Luis, ubicado en Aldea El Hato, Antigua Guatemala ofrece un concepto al aire libre, rodeado de naturaleza. El proyecto SISCOM surge en el momento que los meseros toman la orden a los comensales, anotando en una libreta la orden. En ocasiones, las ordenes tienden a ser confundidas al momento de servirlas debido a que no se da el seguimiento adecuado entre orden y número de mesa durante los tiempos de alta demanda de servicio. Por lo cual, el proyecto consiste en realizar la toma de ordenes por medio de un dispositivo móvil Android.'
-      }
     ];
 
     if (fill != 'all') {

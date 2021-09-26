@@ -53,6 +53,13 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
+        video: 'FMWW8UOmi1U',
+        slug: 'elec_progra',
+        name: 'SISCOM (Sistema de Comandas)',
+        link: 'proyectos/siscom',
+        category: 'Electrónica e Informatica'
+      },
+      {
         video: 'DnfbWcXBIFM',
         slug: 'naturales',
         name: 'Sistema planetario GeoGebra Grupo A',
@@ -199,13 +206,6 @@ export class LandingComponent {
         link: 'proyectos/pdf-scraping',
         category: 'Ciencias Naturales'
       },
-      {
-        video: 'FMWW8UOmi1U',
-        slug: 'elec_progra',
-        name: 'SISCOM (Sistema de Comandas)',
-        link: 'proyectos/siscom',
-        category: 'Electrónica e Informatica'
-      }
     ];
 
     if (fill != 'all') {
