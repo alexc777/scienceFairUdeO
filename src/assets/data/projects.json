@@ -31,7 +31,7 @@
       "category": "Electrónica",
       "name": "Vehículo detector de obstáculos",
       "horario": "09:00 - 09:45 AM",
-      "live": "https://www.youtube.com/watch?v=kiZVkRmNcfI",
+      "live": "https://youtu.be/Jg7dBQ6Wu4U",
       "slug": "vehiculo-detector-de-obstaculos",
       "description": "Robot controlado por módulo bluetooth programado por microcontrolador Arduino UNO para seguir líneas de color negro dentro de una pista, esquivar obstáculos que existan frente al robot mientras realiza su recorrido y detectar humo proveniente de gases colocados alrededor de la pista.",
       "integrantes": [
@@ -80,7 +80,7 @@
       "category": "Ciencias Naturales",
       "name": "Máquina de Goldberg 40 pasos Grupo A",
       "horario": "09:00 - 09:45 AM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/IIY6x2CW98Y",
       "slug": "maquina-goldber-grupo-a",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
       "integrantes": [
@@ -179,7 +179,7 @@
       "category": "Ciencias Naturales",
       "name": "Máquina de Goldberg 40 pasos Grupo F",
       "horario": "09:00 - 09:45 AM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/dk9Eld_r0gg",
       "slug": "maquina-de-golberg-grupo-f",
       "description": "Es una maquina con pasos sencillos que se activo por medio de una pelota o carrito y este desencadenara un efecto cadena por medio de 40 pasos o diferentes estaciones, para poder abrir el baúl de carro y sus 4 ventanas.",
       "integrantes": [
@@ -216,7 +216,7 @@
       "category": "Ciencias Naturales",
       "name": "Máquina de Goldberg 40 pasos Grupo B",
       "horario": "09:00 - 09:45 AM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/UQQjpfHao3E",
       "slug": "maquina-de-goldberg-grupo-b",
       "description": "La máquina Consiste en Realizar una Tarea cotidiana de una forma diferente y complicada, con una serie de obstáculos y niveles.",
       "integrantes": [
@@ -253,7 +253,7 @@
       "category": "Electrónica e Informatica",
       "name": "Centros de Vacunación",
       "horario": "09:00 - 09:45 AM",
-      "live": "https://youtu.be/r-NQpblnr3U",
+      "live": "https://youtu.be/OKKKCC4Y4eY",
       "slug": "centros-de-vacunacion",
       "description": "Aplicación web en la cual un usuario obtenga la ubicación de su centro de vacunación más cercano y que cumpla con sus preferencias de vacunación luego de pasar por un filtro en el cual indique su grupo social de acuerdo a las opciones de registro de vacunación proporcionadas por el Gobierno de Guatemala.",
       "integrantes": [
@@ -282,7 +282,7 @@
       "category": "Electrónica e Informatica",
       "name": "Video Juego - Salvémonos del COVID-19",
       "horario": "09:00 - 09:45 AM",
-      "live": "https://www.youtube.com/watch?v=YJ8AnkdvmCU",
+      "live": "https://youtu.be/YJ8AnkdvmCU",
       "slug": "video-juego-covid",
       "description": "El proyecto a realizar será un videojuego, que se desarrollará en PHP7, Canvas y MySQL, el cual contará con un personaje principal, que será un doctor que se encontrará luchando contra el virus para poder salvarse y lograr la meta final, que consistirá en atravesar los 3 niveles que estarán formando este videojuego",
       "integrantes": [
@@ -386,7 +386,7 @@
       "category": "Ciencias Naturales",
       "name": "Resolución del Método Euler",
       "horario": "10:00 - 10:45 AM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/I0jpUqxgBuU",
       "slug": "resolucion-euler",
       "description": "El proyecto consiste en a realización de unsolucionador automatizado que calculara y graficar el método de Euler mediante algoritmos de Analítica Avanzada de la Ciencia de Datos.",
       "integrantes": [
@@ -404,8 +404,8 @@
       ],
       "docentes": [
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Docente"
+          "imagen": "assets/img/docentes/pedro-echeverria.jpeg",
+          "name": "Lic. Pedro Echeverría"
         }
       ]
     },
@@ -448,7 +448,7 @@
       "category": "Ciencias Naturales",
       "name": "Máquina de Goldberg 40 pasos Grupo C",
       "horario": "10:00 - 10:45 AM",
-      "live": "https://youtu.be/bRxC9bRW25o",
+      "live": "https://youtu.be/saPXigFXagM",
       "slug": "maquina-de-bolberg-grupo-c",
       "description": "Una máquina de Rube Goldberg es cualquier aparato muy complejo que realiza una tarea muy simple de una manera muy indirecta.",
       "integrantes": [
@@ -530,7 +530,7 @@
       "category": "Electrónica",
       "name": "Brazo robótico",
       "horario": "11:00 - 11:45 AM",
-      "live": "https://www.youtube.com/watch?v=PXZvQ_2syZA",
+      "live": "https://youtu.be/rSmindSsCys",
       "slug": "brazo-robotico",
       "description": "Es un brazo robótico capaz de poder moverse por sí solo, ya sea por medio de pulsadores, potenciómetros o consigo mismo poder ser controlado por algún contro",
       "integrantes": [
@@ -552,7 +552,7 @@
       "category": "Electrónica e Informatica",
       "name": "Llenado en la selección automática de envases en Fábrica de Pinturas",
       "horario": "12:00 - 12:45 AM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/ZU8Ji776rkM",
       "slug": "llenado-envases-pintura",
       "description": "Es un prototipo para un sistema autónomo que se basa en el llenado de envases de pinturas el cual es monitoreado contantemente por medio de sensores digitales el cual es procesado y enviado vía Radio Frecuencias a un panel central el cual es gestionado y enviado a una BD (Base De Datos) y así poder monitorear contantemente los productos terminados, dependiendo del código de barras detectado así será su color dispensado, cabe resaltar que es un circuito con detección de errores lo que quiere decir que si hay algún problema en el sistema el dispositivo nos lo indicara atreves de sus distintas señalizaciones.",
       "integrantes": [
@@ -699,31 +699,31 @@
       ]
     },
     {
-      "imagen": "assets/img/banner-projects.jpg",
+      "imagen": "assets/img/purificador/purificador.jpeg",
       "category": "Tecnología de Información y comunicaciones",
       "name": "Sistema Purificador de ambiente",
       "horario": "11:00 - 11:45 AM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/SG3X1Af__yw",
       "slug": "purificador-de-ambiente",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "description": "Sistema que permite la purificación del aire a través de la luz uvc y así lograr un ambiente limpio y seguro.",
       "integrantes": [
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Integrante"
+          "imagen": "assets/img/euler/jorge-ponce.png",
+          "name": "Jorge Ponce"
         },
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Integrante"
+          "imagen": "assets/img/videoj-covid/jose-ocana.png",
+          "name": "José Ocaña"
+        },
+        {
+          "imagen": "assets/img/purificador/carlos-poma.jpg",
+          "name": "Carlos Poma"
         }
       ],
       "docentes": [
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Docente"
-        },
-        {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Docente"
+          "imagen": "assets/img/docentes/walter-oliva.jpg",
+          "name": "Ing. Walter Oliva"
         }
       ]
     },
@@ -834,7 +834,7 @@
       "category": "Ciencias Naturales",
       "name": "Sistema planetario GeoGebra Grupo C",
       "horario": "12:00 - 12:45 PM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/WhmI-euL3YA",
       "slug": "sistema-planetario-grupo-c",
       "description": "El proyecto consiste en una animación del sistema solar por medio del programa Geogebra que es unsoftware que nos permite realizar procesos geométricos, algebraicos y cálculos y visualizar graficas quenos permite ver desde otro punto de vista las aplicaciones que nos brinda la geometría para poder realizar mencionado proyecto.",
       "integrantes": [
@@ -867,7 +867,7 @@
       "category": "Ciencias Naturales",
       "name": "Máquina de Goldberg 40 pasos Grupo D",
       "horario": "12:00 - 12:45 PM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/kh2tAss7fkc",
       "slug": "maquina-de-golberg-grupo-d",
       "description": "Se realizarán 40 pasos para formar la máquina de Rube Goldberg.",
       "integrantes": [
@@ -896,7 +896,7 @@
       "category": "Ciencias Naturales",
       "name": "PDF SCRAPING",
       "horario": "12:00 - 12:45 PM",
-      "live": "https://streamyard.com/",
+      "live": "https://youtu.be/o4frumEGJGY",
       "slug": "pdf-scraping",
       "description": "El web Scraping es una herramienta bastante útil utilizada para extraer información de distintas páginas web desde el código fuente. Una vez extraída la información, se almacena en la base de datos del programa donde es procesada y compilada en una tabla, la cual se exporta como distintos archivos, en este caso, será exportado en PDF para poder abrir el documento y ver la recolección del Scraping de cualquier tipo de información. En el proyecto recopilaremos la información de distintas páginas web para hacer una o varias tablas con distintos temas como: Futbol, PIB, Índice de población en países, etc.",
       "integrantes": [

@@ -160,11 +160,11 @@ export class ListProjectsComponent implements OnInit {
         description: 'Somos un grupo de estudiante universitarios y a grandes rasgos buscamos hacer más fácil la adaptación de movilizarse de una persona que haya perdido la vista ya sea por accidente o enfermedad y también dar un adicional de comodidad a las personas que nacieron sin la vista. Queremos brindarles la mayor seguridad a la hora de movilizarse por la ciudad, debido a que la infraestructura no se encuentra adaptado a un 100% para este tipo de capacidades, dado a que el bastón cuenta con sensores ultrasónicos que le permite aproximar y alertar en el momento de topar con algún objeto o persona. Brindar apoyo con la ubicación satelital (GPS) debido que, como cualquier  otra persona, necesita cubrir sus necesidades personales lo cual lo implica salir y en algunas situaciones implica ir a un lugar que no conoce, el GPS lo guiara con mayor facilidad para encontrar su destino, dándole así seguridad al movilizarse. Ayudar grandemente con la contaminación ambiental, debido a que cuenta con paneles solares que cargaran la batería sin necesidad de  conectarla a una corriente eléctrica, para así disminuir el impacto de  consumo energético y el gasto de baterías desechables.'
       },
       {
-        imagen: 'assets/img/banner-projects.jpg',
+        imagen: 'assets/img/purificador/purificador.jpeg',
         category: 'tec_info_comu',
         name: 'Sistema Purificador de ambiente',
         slug: 'purificador-de-ambiente',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
+        description: 'Sistema que permite la purificación del aire a través de la luz uvc y así lograr un ambiente limpio y seguro.'
       },
       {
         imagen: 'assets/img/propeller/propeller.jpg',
