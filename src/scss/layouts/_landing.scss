@@ -52,7 +52,6 @@
 
         .item_menu__list {
           margin: 10px 0;
-          cursor: pointer;
           text-align: center;
           font-size: var(--dash-small);
           font-weight: var(--font-semi-bold);
@@ -79,7 +78,40 @@
       padding: 85px 75px;
 
       @include to(m) {
-        padding: 10px 0;
+        padding: 10px;
+      }
+
+      .title_medals {
+        color: var(--marron);
+        font-size: var(--dash-bigger);
+        font-weight: var(--font-bold);
+      }
+
+      .item_card_project {
+        position: relative;
+
+        .item_medal {
+          float: right;
+          width: 60px;
+          height: 60px;
+          background-size: contain !important;
+
+          position: absolute;
+          top: -8px;
+          right: -15px;
+
+          &.gold {
+            background: url('../img/primero.svg') no-repeat center;
+          }
+
+          &.silver {
+            background: url('../img/segundo.svg') no-repeat center;
+          }
+
+          &.bronze {
+            background: url('../img/tercero.svg') no-repeat center;
+          }
+        }
       }
     }
 
