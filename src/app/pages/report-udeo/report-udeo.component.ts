@@ -77,7 +77,7 @@ export class ReportUdeoComponent implements OnInit {
         correo: 'rgvilla@montesquieu.edu.gt'
       }
     ]
-    
+
     this.arrProjects = [
       {
         name: 'Sistema de exposición y Votaciones',
@@ -197,9 +197,9 @@ export class ReportUdeoComponent implements OnInit {
           proyecto.total = 0;
           votos.forEach(voto => {
             let correoVoto = voto.usuario.split('@');
-           
+
             if(correoVoto[1] == 'montesquieu.edu.gt'){
-              console.log(correoVoto);
+              // console.log(correoVoto);
               const f_correo = this.arrCorreos.find((obj => obj.correo === voto.usuario))
               if(f_correo){
                 if (proyecto.slug === voto.slug) {
@@ -215,7 +215,7 @@ export class ReportUdeoComponent implements OnInit {
                   }
                 }
               }
-         
+
           }
           });
         });
