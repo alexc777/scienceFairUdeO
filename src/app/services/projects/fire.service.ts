@@ -15,17 +15,17 @@ export class FirelService {
 
     private dbPath = '/votos';
 
-    tutorialsRef: AngularFireList<Voto>;
+    Ref: AngularFireList<Voto>;
 
     votosCollection!: AngularFirestoreCollection<Voto>;
     votos: any;
 
     constructor(private db: AngularFireDatabase, private afs: AngularFirestore) {
-        this.tutorialsRef = db.list(this.dbPath);
+        this.Ref = db.list(this.dbPath);
     }
 
     getAll(): AngularFireList<Voto> {
-        return this.tutorialsRef;
+        return this.Ref;
     }
     getVotosGenerales() {
         return this.afs.collection<any>('votos').valueChanges();
@@ -45,7 +45,7 @@ export class FirelService {
 
 
     create(tutorial: Voto): any {
-        return this.tutorialsRef.push(tutorial);
+        return this.Ref.push(tutorial);
     }
 
     addVoto(voto: any) {
@@ -54,14 +54,14 @@ export class FirelService {
     }
 
     update(key: string, value: any): Promise<void> {
-        return this.tutorialsRef.update(key, value);
+        return this.Ref.update(key, value);
     }
 
     delete(key: string): Promise<void> {
-        return this.tutorialsRef.remove(key);
+        return this.Ref.remove(key);
     }
 
     deleteAll(): Promise<void> {
-        return this.tutorialsRef.remove();
+        return this.Ref.remove();
     }
 }
