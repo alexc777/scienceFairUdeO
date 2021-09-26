@@ -132,13 +132,6 @@ export class ListProjectsComponent implements OnInit {
         description: 'Una máquina de Rube Goldberg es cualquier aparato muy complejo que realiza una tarea muy simple de una manera muy indirecta.'
       },
       {
-        imagen: 'assets/img/robot3-1/robot3-1.jpg',
-        category: 'electronica',
-        name: 'Robot 3 en 1 con Arduino, vehiculo autónomo digital',
-        slug: 'robot-3-en-1-con-arduino',
-        description: 'El siguiente proyecto consiste en la programación y elaboración de un robot móvil autónomo que estará siendo realizado con una tarjeta basada en microcontrolador de la familia Arduino. Su finalidad es que tenga movimiento en su trayectoria marcada, nos basaremos en un trabajo eficiente de evasión de obstáculos. Para el mismo se realiza un análisis de los requisitos tanto a nivel hardware como software que deberá contener el robot. Adicionalmente contará con un circuito de estacionamiento para el recorrido del mismo.'
-      },
-      {
         imagen: 'assets/img/brazo/brazo.png',
         category: 'electronica',
         name: 'Brazo robótico',

@@ -14,7 +14,18 @@
   </div>
 </section>
 
-<div class="ed-container">
+<div class="ed-container" *ngIf="isDesk">
+  <div class="ed-item spi spd">
+    <div class="charts_container">
+      <ngx-charts-bar-vertical [scheme]="colorScheme" [results]="results" [gradient]="gradient" [xAxis]="showXAxis"
+        [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
+        [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" [legendTitle]="'Proyectos'">
+      </ngx-charts-bar-vertical>
+    </div>
+  </div>
+</div>
+
+<div class="ed-container" *ngIf="!isDesk">
   <div class="ed-item spi spd">
     <div class="charts_container">
       <ngx-charts-bar-horizontal [scheme]="colorScheme" [results]="results" [gradient]="gradient" [xAxis]="showXAxis"

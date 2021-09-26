@@ -76,31 +76,27 @@
       ]
     },
     {
-      "imagen": "assets/img/banner-projects.jpg",
+      "imagen": "assets/img/goldberg-a/portada.jpg",
       "category": "Ciencias Naturales",
       "name": "Máquina de Goldberg 40 pasos Grupo A",
       "horario": "09:00 - 09:45 AM",
       "live": "https://youtu.be/IIY6x2CW98Y",
       "slug": "maquina-goldber-grupo-a",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar",
+      "description": "Una máquina de Rube Goldberg es un aparato excesivamente sofisticado que realiza una tarea muy simple de una manera deliberadamente indirecta y elaborada, normalmente haciendo uso de una reacción en cadena. La máquina que se mencionara a continuación genera una carga de electricidad de 0.08 v La máquina es mi visión que realice, prueba que el conjunto de acciones es una transferencia De energía para que el resultado sea el deseado con eso en mente mi maquina crea una corriente eléctrica",
       "integrantes": [
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Integrante"
-        },
-        {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Integrante"
+          "imagen": "assets/img/goldberg-a/jonathan-masariegos.jpg",
+          "name": "Jonathan Masariegos"
         }
       ],
       "docentes": [
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Docente"
+          "imagen": "assets/img/docentes/mariano-alvarez.jpg",
+          "name": "Ing. Mariano Alvarez"
         },
         {
-          "imagen": "assets/img/profile-placeholder.jpg",
-          "name": "Nombre Docente"
+          "imagen": "assets/img/docentes/juan-carlos.jpg",
+          "name": "Lic. Juan Carlos Ruiz"
         }
       ]
     },
@@ -703,7 +699,7 @@
       "category": "Tecnología de Información y comunicaciones",
       "name": "Sistema Purificador de ambiente",
       "horario": "11:00 - 11:45 AM",
-      "live": "https://youtu.be/SG3X1Af__yw",
+      "live": "https://youtu.be/O1O43U5ci1E",
       "slug": "purificador-de-ambiente",
       "description": "Sistema que permite la purificación del aire a través de la luz uvc y así lograr un ambiente limpio y seguro.",
       "integrantes": [

@@ -95,7 +95,7 @@ export class LandingComponent {
         category: 'Electrónica e Informatica'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'Wga8Jd6nrNc',
         slug: 'electronica',
         name: 'Casa domótica',
         link: 'proyectos/casa-domotica',
@@ -128,13 +128,6 @@ export class LandingComponent {
         name: 'Máquina de Goldberg 40 pasos Grupo C',
         link: 'proyectos/maquina-de-bolberg-grupo-c',
         category: 'Ciencias Naturales'
-      },
-      {
-        video: 'Wop0_G4L_uQ',
-        slug: 'electronica',
-        name: 'Robot 3 en 1 con Arduino, vehiculo autónomo digital',
-        link: 'proyectos/robot-3-en-1-con-arduino',
-        category: 'Electrónica'
       },
       {
         video: 'kEbU1opW2Y4',
@@ -200,7 +193,7 @@ export class LandingComponent {
         category: 'Ciencias Naturales'
       },
       {
-        video: 'Wop0_G4L_uQ',
+        video: 'lIiQS2R-9ys',
         slug: 'naturales',
         name: 'PDF SCRAPING',
         link: 'proyectos/pdf-scraping',
