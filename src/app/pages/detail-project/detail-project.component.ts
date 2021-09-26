@@ -25,11 +25,9 @@ export class DetailProjectComponent implements OnInit {
   ngOnInit(): void {
     this.getParams();
     this.getProjects();
-
   }
 
   sendVoute(p_valor: any): any {
-
     if (this.objProject) {
 
       if (!this.authServices.isAuth()) {
@@ -40,27 +38,22 @@ export class DetailProjectComponent implements OnInit {
       this.isExist = this.detailServices.validVoute(this.routeParams.slug);
 
       if (this.isExist) {
-
         Swal.fire({
           position: 'center',
           icon: 'error',
           title: 'Ya has votado por este proyecto',
           showConfirmButton: true
-
         });
-        return 0;
+
+        return;
       } else {
-        console.log(p_valor);
+
         if (p_valor == 0) {
-
-
-
           Swal.fire({
             position: 'center',
             icon: 'success',
             title: 'Voto realizado con exito',
             showConfirmButton: true
-
           });
 
         } else {
@@ -78,9 +71,6 @@ export class DetailProjectComponent implements OnInit {
 
           });
         }
-
-
-
       }
 
     } else {
@@ -107,14 +97,12 @@ export class DetailProjectComponent implements OnInit {
   getParams() {
     this.router.params.subscribe(params => {
       this.routeParams = params;
-      console.log('slug: ', this.routeParams);
     });
   }
 
   getProjects() {
     this.detailServices.getProjects(this.routeParams.slug).subscribe((data: any) => {
       this.objProject = data;
-      console.log('InfoProyect: ', this.objProject);
     }, (error: any) => {
       console.log('Error: ', error);
     })

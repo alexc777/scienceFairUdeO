@@ -11,57 +11,57 @@ import Voto from 'src/app/pages/detail-project/models/voto';
 })
 export class FirelService {
 
+  private dbPath = '/votos';
+
+  Ref: AngularFireList<Voto>;
+
+  votosCollection!: AngularFirestoreCollection<Voto>;
+  votos: any;
+
+  constructor(private db: AngularFireDatabase, private afs: AngularFirestore) {
+    this.Ref = db.list(this.dbPath);
+  }
+
+  getAll(): AngularFireList<Voto> {
+    return this.Ref;
+  }
+
+  getVotosGenerales() {
+    return this.afs.collection<any>('votos').valueChanges();
+  }
+
+  getVotos() {
+      this.votosCollection = this.afs.collection<any>('votos', ref => ref.where('slug', '==', 'sistema-de-exposicion-y-votaciones'));
+      return this.votos = this.votosCollection.snapshotChanges().pipe(
+          map((actions: any[]) => actions.map(
+              (a: { payload: { doc: { data: () => any; id: any; }; }; }) => {
+                  const data = a.payload.doc.data() as Voto;
+                  const id = a.payload.doc.id;
+                  return { id, ...data };
+              }
+          )));;
+  }
 
 
-    private dbPath = '/votos';
+  create(tutorial: Voto): any {
+      return this.Ref.push(tutorial);
+  }
 
-    Ref: AngularFireList<Voto>;
+  addVoto(voto: any) {
 
-    votosCollection!: AngularFirestoreCollection<Voto>;
-    votos: any;
+      this.afs.collection<any>('votos').add(voto);
+  }
 
-    constructor(private db: AngularFireDatabase, private afs: AngularFirestore) {
-        this.Ref = db.list(this.dbPath);
-    }
+  update(key: string, value: any): Promise<void> {
+      return this.Ref.update(key, value);
+  }
 
-    getAll(): AngularFireList<Voto> {
-        return this.Ref;
-    }
-    getVotosGenerales() {
-        return this.afs.collection<any>('votos').valueChanges();
-    }
+  delete(key: string): Promise<void> {
+      return this.Ref.remove(key);
+  }
 
-    getVotos() {
-        this.votosCollection = this.afs.collection<any>('votos', ref => ref.where('slug', '==', 'sistema-de-exposicion-y-votaciones'));
-        return this.votos = this.votosCollection.snapshotChanges().pipe(
-            map((actions: any[]) => actions.map(
-                (a: { payload: { doc: { data: () => any; id: any; }; }; }) => {
-                    const data = a.payload.doc.data() as Voto;
-                    const id = a.payload.doc.id;
-                    return { id, ...data };
-                }
-            )));;
-    }
+  deleteAll(): Promise<void> {
+      return this.Ref.remove();
+  }
 
-
-    create(tutorial: Voto): any {
-        return this.Ref.push(tutorial);
-    }
-
-    addVoto(voto: any) {
-
-        this.afs.collection<any>('votos').add(voto);
-    }
-
-    update(key: string, value: any): Promise<void> {
-        return this.Ref.update(key, value);
-    }
-
-    delete(key: string): Promise<void> {
-        return this.Ref.remove(key);
-    }
-
-    deleteAll(): Promise<void> {
-        return this.Ref.remove();
-    }
 }

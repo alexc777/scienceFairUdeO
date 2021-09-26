@@ -132,13 +132,6 @@ export class ListProjectsComponent implements OnInit {
         description: 'Una máquina de Rube Goldberg es cualquier aparato muy complejo que realiza una tarea muy simple de una manera muy indirecta.'
       },
       {
-        imagen: 'assets/img/robot3-1/robot3-1.jpg',
-        category: 'electronica',
-        name: 'Robot 3 en 1 con Arduino, vehiculo autónomo digital',
-        slug: 'robot-3-en-1-con-arduino',
-        description: 'El siguiente proyecto consiste en la programación y elaboración de un robot móvil autónomo que estará siendo realizado con una tarjeta basada en microcontrolador de la familia Arduino. Su finalidad es que tenga movimiento en su trayectoria marcada, nos basaremos en un trabajo eficiente de evasión de obstáculos. Para el mismo se realiza un análisis de los requisitos tanto a nivel hardware como software que deberá contener el robot. Adicionalmente contará con un circuito de estacionamiento para el recorrido del mismo.'
-      },
-      {
         imagen: 'assets/img/brazo/brazo.png',
         category: 'electronica',
         name: 'Brazo robótico',
@@ -160,11 +153,11 @@ export class ListProjectsComponent implements OnInit {
         description: 'Somos un grupo de estudiante universitarios y a grandes rasgos buscamos hacer más fácil la adaptación de movilizarse de una persona que haya perdido la vista ya sea por accidente o enfermedad y también dar un adicional de comodidad a las personas que nacieron sin la vista. Queremos brindarles la mayor seguridad a la hora de movilizarse por la ciudad, debido a que la infraestructura no se encuentra adaptado a un 100% para este tipo de capacidades, dado a que el bastón cuenta con sensores ultrasónicos que le permite aproximar y alertar en el momento de topar con algún objeto o persona. Brindar apoyo con la ubicación satelital (GPS) debido que, como cualquier  otra persona, necesita cubrir sus necesidades personales lo cual lo implica salir y en algunas situaciones implica ir a un lugar que no conoce, el GPS lo guiara con mayor facilidad para encontrar su destino, dándole así seguridad al movilizarse. Ayudar grandemente con la contaminación ambiental, debido a que cuenta con paneles solares que cargaran la batería sin necesidad de  conectarla a una corriente eléctrica, para así disminuir el impacto de  consumo energético y el gasto de baterías desechables.'
       },
       {
-        imagen: 'assets/img/banner-projects.jpg',
+        imagen: 'assets/img/purificador/purificador.jpeg',
         category: 'tec_info_comu',
         name: 'Sistema Purificador de ambiente',
         slug: 'purificador-de-ambiente',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, tortor eget accumsan pulvinar'
+        description: 'Sistema que permite la purificación del aire a través de la luz uvc y así lograr un ambiente limpio y seguro.'
       },
       {
         imagen: 'assets/img/propeller/propeller.jpg',
