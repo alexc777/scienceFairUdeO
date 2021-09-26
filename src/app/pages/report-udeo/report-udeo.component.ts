@@ -12,6 +12,7 @@ export class ReportUdeoComponent implements OnInit {
 
   ngUnsubscribe: Subject<void> = new Subject();
   public arrProjects: any[] = [];
+  public arrCorreos: any[] = [];
   public dataGrafica: any[] = [];
   public data: any = {};
 
@@ -35,6 +36,48 @@ export class ReportUdeoComponent implements OnInit {
   isDesk = true;
 
   constructor(public _fireService: FirelService) {
+    this.arrCorreos = [
+      {
+        correo: 'malvarez@montesquieu.edu.gt'
+      },
+      {
+        correo: 'basturias@montesquieu.edu.gt'
+      },
+      {
+        correo: 'sablanco@montesquieu.edu.gt'
+      },
+      {
+        correo: 'pecheverria@montesquieu.edu.gt'
+      },
+      {
+        correo: 'jadelcid@montesquieu.edu.gt'
+      },
+      {
+        correo: 'jcsalazar@montesquieu.edu.gt'
+      },
+      {
+        correo: 'woliva@montesquieu.edu.gt'
+      },
+      {
+        correo: 'rpacheco@montesquieu.edu.gt'
+      },
+      {
+        correo: 'rarodas@montesquieu.edu.gt'
+      },
+      {
+        correo: 'jcruiz@montesquieu.edu.gt'
+      },
+      {
+        correo: 'jlsuchi@montesquieu.edu.gt'
+      },
+      {
+        correo: 'htiul@montesquieu.edu.gt'
+      },
+      {
+        correo: 'rgvilla@montesquieu.edu.gt'
+      }
+    ]
+
     this.arrProjects = [
       {
         name: 'Sistema de exposición y Votaciones',
@@ -153,18 +196,27 @@ export class ReportUdeoComponent implements OnInit {
         this.arrProjects.forEach(proyecto => {
           proyecto.total = 0;
           votos.forEach(voto => {
-            if (proyecto.slug === voto.slug) {
-              proyecto.total = parseInt(proyecto.total) + parseInt(voto.valor);
-              let data: any = {};
-              data.name = proyecto.name;
-              data.value = proyecto.total;
-              const r_proyecto = this.dataGrafica.find((obj => obj.name === proyecto.name));
-              if (r_proyecto) {
-                r_proyecto.value = proyecto.total;
-              } else {
-                this.dataGrafica.push(data);
+            let correoVoto = voto.usuario.split('@');
+
+            if(correoVoto[1] == 'montesquieu.edu.gt'){
+              // console.log(correoVoto);
+              const f_correo = this.arrCorreos.find((obj => obj.correo === voto.usuario))
+              if(f_correo){
+                if (proyecto.slug === voto.slug) {
+                  proyecto.total = parseInt(proyecto.total) + parseInt(voto.valor);
+                  let data: any = {};
+                  data.name = proyecto.name;
+                  data.value = proyecto.total;
+                  const r_proyecto = this.dataGrafica.find((obj => obj.name === proyecto.name));
+                  if (r_proyecto) {
+                    r_proyecto.value = proyecto.total;
+                  } else {
+                    this.dataGrafica.push(data);
+                  }
+                }
               }
-            }
+
+          }
           });
         });
         this.results = [...this.dataGrafica];
