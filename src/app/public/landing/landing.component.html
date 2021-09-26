@@ -4,7 +4,8 @@
       <img src="assets/img/logo-udeo.png" alt="Logo UdeO">
 
       <ul class="list_categories_menu">
-        <li class="item_menu__list" *ngFor="let category of arrCategory" (click)="filterProjects(category.slug)"> {{ category.name }} </li>
+        <li class="item_menu__list">Listado de Proyectos ganadores</li>
+        <li class="item_menu__list">Feria científica 2021</li>
       </ul>
 
       <div class="shared_footer"></div>
@@ -14,6 +15,161 @@
 
   <div class="main_container__projects">
     <div class="spacer_items__landing">
+      <h1 class="title_medals">Primeros 3 lugares a nivel general.</h1>
+      <div class="ed-grid s-grid-1 m-grid-3 full">
+        <article class="s-shadow-bottom item_card_project animate__animated animate__fadeIn" *ngFor="let project of arrProjects">
+          <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+            <img [routerLink]="['/proyectos',project.slug]" [src]="project.imagen">
+          </div>
+
+          <div class="item_medal animate__animated animate__tada animate__delay-1s animate__infinite {{ project.medal }} "></div>
+
+          <div class="s-pxy-2">
+            <h3> {{ project.name }} </h3>
+            <p class="s-mb-0"> {{ (project.description.length > 90) ? (project.description | slice:0:90) + '...' :
+              (project.description) }} </p>
+          </div>
+
+          <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">
+            <a [routerLink]="['/proyectos',project.slug]" target="_blank" class="button">Más Info.</a>
+          </footer>
+        </article>
+      </div>
+
+      <h1 class="title_medals">Primeros 3 lugares Electrónica.</h1>
+      <div class="ed-grid s-grid-1 m-grid-3 full">
+        <article class="s-shadow-bottom item_card_project animate__animated animate__fadeIn" *ngFor="let project of arrElectronica">
+          <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+            <img [routerLink]="['/proyectos',project.slug]" [src]="project.imagen">
+          </div>
+
+          <div class="item_medal animate__animated animate__tada animate__delay-1s animate__infinite {{ project.medal }} ">
+          </div>
+
+          <div class="s-pxy-2">
+            <h3> {{ project.name }} </h3>
+            <p class="s-mb-0"> {{ (project.description.length > 90) ? (project.description | slice:0:90) + '...' :
+              (project.description) }} </p>
+          </div>
+
+          <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">
+            <a [routerLink]="['/proyectos',project.slug]" target="_blank" class="button">Más Info.</a>
+          </footer>
+        </article>
+      </div>
+
+      <h1 class="title_medals">Primeros 3 lugares Ciencias Naturales.</h1>
+      <div class="ed-grid s-grid-1 m-grid-3 full">
+        <article class="s-shadow-bottom item_card_project animate__animated animate__fadeIn" *ngFor="let project of arrNaturales">
+          <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+            <img [routerLink]="['/proyectos',project.slug]" [src]="project.imagen">
+          </div>
+
+          <div class="item_medal animate__animated animate__tada animate__delay-1s animate__infinite {{ project.medal }} ">
+          </div>
+
+          <div class="s-pxy-2">
+            <h3> {{ project.name }} </h3>
+            <p class="s-mb-0"> {{ (project.description.length > 90) ? (project.description | slice:0:90) + '...' :
+              (project.description) }} </p>
+          </div>
+
+          <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">
+            <a [routerLink]="['/proyectos',project.slug]" target="_blank" class="button">Más Info.</a>
+          </footer>
+        </article>
+      </div>
+
+      <h1 class="title_medals">Primeros 3 lugares Electrónica e Informatica.</h1>
+      <div class="ed-grid s-grid-1 m-grid-3 full">
+        <article class="s-shadow-bottom item_card_project animate__animated animate__fadeIn" *ngFor="let project of arrProgra">
+          <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+            <img [routerLink]="['/proyectos',project.slug]" [src]="project.imagen">
+          </div>
+
+          <div class="item_medal animate__animated animate__tada animate__delay-1s animate__infinite {{ project.medal }} ">
+          </div>
+
+          <div class="s-pxy-2">
+            <h3> {{ project.name }} </h3>
+            <p class="s-mb-0"> {{ (project.description.length > 90) ? (project.description | slice:0:90) + '...' :
+              (project.description) }} </p>
+          </div>
+
+          <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">
+            <a [routerLink]="['/proyectos',project.slug]" target="_blank" class="button">Más Info.</a>
+          </footer>
+        </article>
+      </div>
+
+      <h1 class="title_medals">Primeros 3 lugares Tecnología de Información y comunicaciones.</h1>
+      <div class="ed-grid s-grid-1 m-grid-3 full">
+        <article class="s-shadow-bottom item_card_project animate__animated animate__fadeIn" *ngFor="let project of arrComu">
+          <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+            <img [routerLink]="['/proyectos',project.slug]" [src]="project.imagen">
+          </div>
+
+          <div class="item_medal animate__animated animate__tada animate__delay-1s animate__infinite {{ project.medal }} ">
+          </div>
+
+          <div class="s-pxy-2">
+            <h3> {{ project.name }} </h3>
+            <p class="s-mb-0"> {{ (project.description.length > 90) ? (project.description | slice:0:90) + '...' :
+              (project.description) }} </p>
+          </div>
+
+          <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">
+            <a [routerLink]="['/proyectos',project.slug]" target="_blank" class="button">Más Info.</a>
+          </footer>
+        </article>
+      </div>
+
+      <h1 class="title_medals">Primer lugar Sistema planetario.</h1>
+      <div class="ed-grid s-grid-1 m-grid-3 full">
+        <article class="s-shadow-bottom item_card_project animate__animated animate__fadeIn" *ngFor="let project of arrPlaneta">
+          <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+            <img [routerLink]="['/proyectos',project.slug]" [src]="project.imagen">
+          </div>
+
+          <div class="item_medal animate__animated animate__tada animate__delay-1s animate__infinite {{ project.medal }} ">
+          </div>
+
+          <div class="s-pxy-2">
+            <h3> {{ project.name }} </h3>
+            <p class="s-mb-0"> {{ (project.description.length > 90) ? (project.description | slice:0:90) + '...' :
+              (project.description) }} </p>
+          </div>
+
+          <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">
+            <a [routerLink]="['/proyectos',project.slug]" target="_blank" class="button">Más Info.</a>
+          </footer>
+        </article>
+      </div>
+
+      <h1 class="title_medals">Primer lugar Máquina de Goldberg.</h1>
+      <div class="ed-grid s-grid-1 m-grid-3 full">
+        <article class="s-shadow-bottom item_card_project animate__animated animate__fadeIn" *ngFor="let project of arrMaquina">
+          <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+            <img [routerLink]="['/proyectos',project.slug]" [src]="project.imagen">
+          </div>
+
+          <div class="item_medal animate__animated animate__tada animate__delay-1s animate__infinite {{ project.medal }} ">
+          </div>
+
+          <div class="s-pxy-2">
+            <h3> {{ project.name }} </h3>
+            <p class="s-mb-0"> {{ (project.description.length > 90) ? (project.description | slice:0:90) + '...' :
+              (project.description) }} </p>
+          </div>
+
+          <footer class="s-main-center s-cross-center s-bg-white s-pxy-2 s-radius-br s-radius-bl">
+            <a [routerLink]="['/proyectos',project.slug]" target="_blank" class="button">Más Info.</a>
+          </footer>
+        </article>
+      </div>
+    </div>
+
+    <!-- <div class="spacer_items__landing">
       <div class="ed-grid s-grid-1 m-grid-2">
         <article class="item_lading_proyect animate__animated animate__fadeIn" *ngFor="let project of arrProjects">
           <div class="ed-video">
@@ -26,6 +182,6 @@
           </div>
         </article>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
