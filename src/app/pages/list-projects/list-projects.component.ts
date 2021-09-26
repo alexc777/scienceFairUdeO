@@ -15,7 +15,7 @@ export class ListProjectsComponent implements OnInit {
     { name: 'Tecnología de Información y comunicaciones', slug: 'tec_info_comu' }
   ]
 
-  arrProjects: any[] = [];
+  public arrProjects: any[] = [];
 
   constructor() { }
 

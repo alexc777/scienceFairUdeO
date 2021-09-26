@@ -5,28 +5,27 @@
 
       <p class="time_event" title="Horario del Proyecto"> {{ objProject.horario }} </p>
       <p class="category_event" title="Categoría del Proyecto"> {{ objProject.category }} </p>
-      <p class="live_event" title="Live del Proyecto"><a [href]="objProject.live" target="_blank"> {{ objProject.live }} </a></p>
+      <p class="live_event" title="Live del Proyecto"><a [href]="objProject.live" target="_blank"> {{ objProject.live }}
+        </a></p>
       <p class="phone_left">Compartir por:</p>
-      <share-buttons [theme]="'outline'"
-                     [show]="4"
-                     [showText]="false"
-                     [title]="'Feria científica | Proyecto: ' + objProject.name"
-                     [description]="'Feria científica | Proyecto: ' + objProject.name"
-                     [include]="['facebook','twitter','whatsapp','copy']"></share-buttons>
+      <share-buttons [theme]="'outline'" [show]="4" [showText]="false"
+        [title]="'Feria científica | Proyecto: ' + objProject.name"
+        [description]="'Feria científica | Proyecto: ' + objProject.name"
+        [include]="['facebook','twitter','whatsapp','copy']"></share-buttons>
 
       <h2 class="top_votacion">¿Que te parecio el proyecto?</h2>
       <div class="container_voutes">
-        <div class="item_voute" (click)="sendVoute()">
+        <div class="item_voute" (click)="sendVoute(2)">
           <img src="assets/img/meencanta.png" alt="Mejor Proyecto">
           ¡Me encanta!
         </div>
 
-        <div class="item_voute" (click)="sendVoute()">
+        <div class="item_voute" (click)="sendVoute(1)">
           <img src="assets/img/estabien.png" alt="Buen proyecto">
           Está bien
         </div>
 
-        <div class="item_voute" (click)="sendVoute()">
+        <div class="item_voute" (click)="sendVoute(0)">
           <img src="assets/img/mejorar.png" alt="prodria mejorar">
           Podría mejorar
         </div>
@@ -116,4 +115,3 @@
     </div>
   </div>
 </div>
-

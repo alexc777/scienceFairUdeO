@@ -11,6 +11,8 @@ export const firebaseConfig = {
 
   authDomain: 'feriaudeo.firebaseapp.com',
 
+  databaseURL: "https://feriaudeo-default-rtdb.firebaseio.com",
+
   projectId: 'feriaudeo',
 
   storageBucket: 'feriaudeo.appspot.com',
