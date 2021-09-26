@@ -50,8 +50,10 @@ export class DetailProjectComponent implements OnInit {
         });
         return 0;
       } else {
+        console.log(p_valor);
+        if (p_valor == 0) {
 
-        if (p_valor != 0) {
+
 
           Swal.fire({
             position: 'center',
