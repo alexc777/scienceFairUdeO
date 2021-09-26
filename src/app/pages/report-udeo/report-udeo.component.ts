@@ -153,6 +153,9 @@ export class ReportUdeoComponent implements OnInit {
         this.arrProjects.forEach(proyecto => {
           proyecto.total = 0;
           votos.forEach(voto => {
+            let correoVoto = voto.usuario.split('@');
+            console.log(correoVoto[1]);
+            if(correoVoto[1] == 'montesquieu.edu.gt'){
             if (proyecto.slug === voto.slug) {
               proyecto.total = parseInt(proyecto.total) + parseInt(voto.valor);
               let data: any = {};
@@ -165,6 +168,7 @@ export class ReportUdeoComponent implements OnInit {
                 this.dataGrafica.push(data);
               }
             }
+          }
           });
         });
         this.results = [...this.dataGrafica];
